@@ -1,0 +1,2885 @@
+.company-profile-id-hm-frame-company-profile-hm {
+  width: 1440px;
+  cursor: pointer;
+  overflow: hidden;
+  max-width: 1440px;
+  box-sizing: border-box;
+  min-height: 6164px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  background-color: #fff;
+}
+.company-profile-id-hm-frame-rectangle2-sn {
+  width: 597px;
+  height: 1442px;
+  transform: rotate(90deg);
+  box-sizing: border-box;
+  background-size: cover;
+  background-image: linear-gradient(180deg,#59595900 13%,#2d2d2d59 30%,#16161685 41%,#0b0b0b9c 53%,#000000b3 64%),url(./assets/e5b465e662d1108b8a092052f4b0fefc.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.company-profile-id-hm-frame-rectangle53o {
+  width: 1442px;
+  height: 645px;
+  box-sizing: border-box;
+  background-color: #18181b;
+}
+.company-profile-id-hm-frame-timeline-p3 {
+  gap: 24px;
+  width: 1200px;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  flex-grow: 1;
+  max-width: 1200px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  justify-content: flex-start;
+}
+.company-profile-id-hm-frame-milestone201704 {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  flex-grow: 1;
+  max-width: 384px;
+  box-sizing: border-box;
+  flex-shrink: 1;
+}
+.company-profile-id-hm-frame-marker40 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  max-width: 384px;
+  align-self: stretch;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+}
+.company-profile-id-hm-frame-dot-sz {
+  width: 12px;
+  height: 12px;
+  box-sizing: border-box;
+  border-radius: 100%;
+  background-color: #fff;
+}
+.company-profile-id-hm-frame-line-hy {
+  width: 372px;
+  height: 1px;
+  flex-grow: 1;
+  box-sizing: border-box;
+  flex-shrink: 1;
+  background-color: #fff;
+}
+.company-profile-id-hm-frame-milestone2019-kv {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  flex-grow: 1;
+  max-width: 384px;
+  box-sizing: border-box;
+  flex-shrink: 1;
+}
+.company-profile-id-hm-frame-marker9u {
+  width: 100%;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  max-width: 384px;
+  align-self: stretch;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+}
+.company-profile-id-hm-frame-dot-yt {
+  width: 12px;
+  height: 12px;
+  box-sizing: border-box;
+  border-radius: 100%;
+  background-color: #fff;
+}
+.company-profile-id-hm-frame-line-ns {
+  width: 372px;
+  height: 1px;
+  flex-grow: 1;
+  box-sizing: border-box;
+  flex-shrink: 1;
+  background-color: #fff;
+}
+.company-profile-id-hm-frame-milestone20222u {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  flex-grow: 1;
+  max-width: 384px;
+  box-sizing: border-box;
+  flex-shrink: 1;
+}
+.company-profile-id-hm-frame-marker-dv {
+  width: 100%;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  max-width: 384px;
+  align-self: stretch;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+}
+.company-profile-id-hm-frame-dot-ow {
+  width: 12px;
+  height: 12px;
+  box-sizing: border-box;
+  border-radius: 100%;
+  background-color: #fff;
+}
+.company-profile-id-hm-frame-line-jp {
+  width: 372px;
+  height: 1px;
+  flex-grow: 1;
+  box-sizing: border-box;
+  flex-shrink: 1;
+  background-color: #fff;
+}
+.company-profile-id-hm-frame-group4629-bl {
+  width: 1200px;
+  max-width: 1200px;
+  box-sizing: border-box;
+  min-height: 356px;
+}
+.company-profile-id-hm-text-title2e1 {
+  width: 100%;
+  max-width: auto;
+  margin-top: 0;
+  min-height: auto;
+  text-align: left;
+  margin-bottom: 0;
+}
+.company-profile-id-hm-text-title2e2 {
+  color: #fafafa;
+  font-size: 36px;
+  font-style: normal;
+  margin-top: 0;
+  text-align: left;
+  font-family: "Plus Jakarta Sans",sans-serif;
+  font-weight: 500;
+  line-height: 44px;
+  margin-bottom: 0;
+  letter-spacing: 0;
+  text-transform: none;
+  text-decoration: none;
+}
+.company-profile-id-hm-text-period-uq1 {
+  width: 100%;
+  max-width: 384px;
+  align-self: stretch;
+  margin-top: 0;
+  min-height: auto;
+  text-align: left;
+  margin-bottom: 0;
+}
+.company-profile-id-hm-text-period-uq2 {
+  color: #fafafa;
+  font-size: 28px;
+  font-style: normal;
+  margin-top: 0;
+  text-align: left;
+  font-family: "Plus Jakarta Sans",sans-serif;
+  font-weight: 500;
+  line-height: 36px;
+  margin-bottom: 0;
+  letter-spacing: 0;
+  text-transform: none;
+  text-decoration: none;
+}
+.company-profile-id-hm-text-descriptio5r1 {
+  width: 100%;
+  max-width: 384px;
+  align-self: stretch;
+  margin-top: 0;
+  min-height: auto;
+  text-align: left;
+  margin-bottom: 0;
+}
+.company-profile-id-hm-text-descriptio5r2 {
+  color: #fafafa;
+  font-size: 16px;
+  font-style: normal;
+  margin-top: 0;
+  text-align: left;
+  font-family: "Plus Jakarta Sans",sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 0;
+  letter-spacing: .5px;
+  text-transform: none;
+  text-decoration: none;
+}
+.company-profile-id-hm-text-period-cr1 {
+  width: 100%;
+  max-width: 384px;
+  align-self: stretch;
+  margin-top: 0;
+  min-height: auto;
+  text-align: left;
+  margin-bottom: 0;
+}
+.company-profile-id-hm-text-period-cr2 {
+  color: #fafafa;
+  font-size: 28px;
+  font-style: normal;
+  margin-top: 0;
+  text-align: left;
+  font-family: "Plus Jakarta Sans",sans-serif;
+  font-weight: 500;
+  line-height: 36px;
+  margin-bottom: 0;
+  letter-spacing: 0;
+  text-transform: none;
+  text-decoration: none;
+}
+.company-profile-id-hm-text-descriptio-rt1 {
+  width: 100%;
+  max-width: 384px;
+  align-self: stretch;
+  margin-top: 0;
+  min-height: auto;
+  text-align: left;
+  margin-bottom: 0;
+}
+.company-profile-id-hm-text-descriptio-rt2 {
+  color: #fafafa;
+  font-size: 16px;
+  font-style: normal;
+  margin-top: 0;
+  text-align: left;
+  font-family: "Plus Jakarta Sans",sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 0;
+  letter-spacing: .5px;
+  text-transform: none;
+  text-decoration: none;
+}
+.company-profile-id-hm-text-period6x1 {
+  width: 100%;
+  max-width: 384px;
+  align-self: stretch;
+  margin-top: 0;
+  min-height: auto;
+  text-align: left;
+  margin-bottom: 0;
+}
+.company-profile-id-hm-text-period6x2 {
+  color: #fafafa;
+  font-size: 28px;
+  font-style: normal;
+  margin-top: 0;
+  text-align: left;
+  font-family: "Plus Jakarta Sans",sans-serif;
+  font-weight: 500;
+  line-height: 36px;
+  margin-bottom: 0;
+  letter-spacing: 0;
+  text-transform: none;
+  text-decoration: none;
+}
+.company-profile-id-hm-text-descriptio-vw1 {
+  width: 100%;
+  max-width: 384px;
+  align-self: stretch;
+  margin-top: 0;
+  min-height: auto;
+  text-align: left;
+  margin-bottom: 0;
+}
+.company-profile-id-hm-text-descriptio-vw2 {
+  color: #fafafa;
+  font-size: 16px;
+  font-style: normal;
+  margin-top: 0;
+  text-align: left;
+  font-family: "Plus Jakarta Sans",sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 0;
+  letter-spacing: .5px;
+  text-transform: none;
+  text-decoration: none;
+}
+.company-profile-id-hm-frame-rectangle13-hh {
+  width: 1440px;
+  height: 590px;
+  box-sizing: border-box;
+  background-color: #18181b;
+}
+.company-profile-id-hm-frame-group46331u {
+  width: 1285px;
+  max-width: 1285px;
+  box-sizing: border-box;
+  min-height: 388px;
+}
+.company-profile-id-hm-text-visi-si1 {
+  width: 100%;
+  max-width: 277.9586486816406px;
+  margin-top: 0;
+  min-height: auto;
+  text-align: center;
+  margin-bottom: 0;
+}
+.company-profile-id-hm-text-visi-si2 {
+  color: #fff;
+  font-size: 36px;
+  font-style: normal;
+  margin-top: 0;
+  text-align: center;
+  font-family: "Plus Jakarta Sans",sans-serif;
+  font-weight: 500;
+  line-height: 44px;
+  margin-bottom: 0;
+  letter-spacing: 0;
+  text-transform: none;
+  text-decoration: none;
+}
+.company-profile-id-hm-text-vf1 {
+  width: 100%;
+  max-width: 347px;
+  margin-top: 0;
+  min-height: auto;
+  text-align: center;
+  margin-bottom: 0;
+}
+.company-profile-id-hm-text-vf2 {
+  color: #fff;
+  font-size: 24px;
+  font-style: normal;
+  margin-top: 0;
+  text-align: center;
+  font-family: "Plus Jakarta Sans",sans-serif;
+  font-weight: 600;
+  line-height: 32px;
+  margin-bottom: 0;
+  letter-spacing: 0;
+  text-transform: none;
+  text-decoration: none;
+}
+.company-profile-id-hm-text-misi6g1 {
+  width: 100%;
+  max-width: 311px;
+  align-self: stretch;
+  margin-top: 0;
+  min-height: auto;
+  text-align: center;
+  margin-bottom: 0;
+}
+.company-profile-id-hm-text-misi6g2 {
+  color: #fff;
+  font-size: 36px;
+  font-style: normal;
+  margin-top: 0;
+  text-align: center;
+  font-family: "Plus Jakarta Sans",sans-serif;
+  font-weight: 500;
+  line-height: 44px;
+  margin-bottom: 0;
+  letter-spacing: 0;
+  text-transform: none;
+  text-decoration: none;
+}
+.company-profile-id-hm-text-menyediaka-produk-hg1 {
+  width: 100%;
+  max-width: 837px;
+  align-self: stretch;
+  margin-top: 0;
+  min-height: auto;
+  text-align: left;
+  margin-bottom: 0;
+}
+.company-profile-id-hm-text-menyediaka-produk-hg2,.company-profile-id-hm-text-menyediaka-produk-hg3,.company-profile-id-hm-text-menyediaka-produk-hg4,.company-profile-id-hm-text-menyediaka-produk-hg5 {
+  color: #fff;
+  font-size: 24px;
+  font-style: normal;
+  margin-top: 0;
+  text-align: left;
+  font-family: "Plus Jakarta Sans",sans-serif;
+  font-weight: 600;
+  line-height: 32px;
+  margin-bottom: 0;
+  letter-spacing: 0;
+  text-transform: none;
+  text-decoration: none;
+}
+.company-profile-id-hm-frame-line76f {
+  width: 382px;
+  height: 0;
+  transform: rotate(90deg);
+  border-top: 2px solid #fff;
+  box-sizing: border-box;
+  border-left: 2px solid #fff;
+  border-right: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+}
+.company-profile-id-hm-frame-rectangle1-ga {
+  width: 1440px;
+  height: 84px;
+  box-sizing: border-box;
+  background-color: #18181b;
+}
+.company-profile-id-hm-text-x-bar2c1 {
+  width: 100%;
+  max-width: auto;
+  margin-top: 0;
+  min-height: auto;
+  text-align: left;
+  margin-bottom: 0;
+}
+.company-profile-id-hm-text-x-bar2c2 {
+  color: #fff;
+  font-size: 32px;
+  font-style: normal;
+  margin-top: 0;
+  text-align: left;
+  font-family: "Work Sans",sans-serif;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 0;
+  letter-spacing: 0;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.company-profile-id-hm-frame-dd {
+  gap: 89px;
+  width: fit-content;
+  height: auto;
+  display: flex;
+  position: relative;
+  max-width: none;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+}
+.company-profile-id-hm-link10 {
+  display: contents;
+}
+.company-profile-id-hm-text-tentang-kami-oe1 {
+  width: 100%;
+  cursor: pointer;
+  max-width: auto;
+  margin-top: 0;
+  min-height: auto;
+  text-align: left;
+  margin-bottom: 0;
+}
+.company-profile-id-hm-text-tentang-kami-oe2 {
+  color: #fff;
+  font-size: 22px;
+  font-style: normal;
+  margin-top: 0;
+  text-align: left;
+  font-family: "Plus Jakarta Sans",sans-serif;
+  font-weight: 600;
+  line-height: 28px;
+  margin-bottom: 0;
+  letter-spacing: 0;
+  text-transform: none;
+  text-decoration: none;
+}
+.company-profile-id-hm-link11 {
+  display: contents;
+}
+.company-profile-id-hm-text-produk-zf1 {
+  width: 100%;
+  cursor: pointer;
+  max-width: auto;
+  margin-top: 0;
+  min-height: auto;
+  text-align: left;
+  margin-bottom: 0;
+}
+.company-profile-id-hm-text-produk-zf2 {
+  color: #fff;
+  font-size: 22px;
+  font-style: normal;
+  margin-top: 0;
+  text-align: left;
+  font-family: "Plus Jakarta Sans",sans-serif;
+  font-weight: 600;
+  line-height: 28px;
+  margin-bottom: 0;
+  letter-spacing: 0;
+  text-transform: none;
+  text-decoration: none;
+}
+.company-profile-id-hm-link12 {
+  display: contents;
+}
+.company-profile-id-hm-text-kontak-kami-ag1 {
+  width: 100%;
+  cursor: pointer;
+  max-width: auto;
+  margin-top: 0;
+  min-height: auto;
+  text-align: left;
+  margin-bottom: 0;
+}
+.company-profile-id-hm-text-kontak-kami-ag2 {
+  color: #fff;
+  font-size: 22px;
+  font-style: normal;
+  margin-top: 0;
+  text-align: left;
+  font-family: "Plus Jakarta Sans",sans-serif;
+  font-weight: 600;
+  line-height: 28px;
+  margin-bottom: 0;
+  letter-spacing: 0;
+  text-transform: none;
+  text-decoration: none;
+}
+.company-profile-id-hm-text-indonesia-english-wi1 {
+  width: 100%;
+  cursor: pointer;
+  max-width: auto;
+  margin-top: 0;
+  min-height: auto;
+  text-align: left;
+  margin-bottom: 0;
+}
+.company-profile-id-hm-text-indonesia-english-wi2 {
+  margin-top: 0;
+  text-align: left;
+  margin-bottom: 0;
+}
+.company-profile-id-hm-text1,.company-profile-id-hm-text2 {
+  color: #fff;
+  font-size: 22px;
+  font-style: normal;
+  font-family: "Plus Jakarta Sans",sans-serif;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0;
+  text-transform: none;
+  text-decoration: none;
+}
+.company-profile-id-hm-text2 {
+  font-weight: 400;
+}
+.company-profile-id-hm-frame-group46401j {
+  width: 48px;
+  cursor: pointer;
+  max-width: 48px;
+  box-sizing: border-box;
+  min-height: 48px;
+}
+.company-profile-id-hm-frame-ellipse1-rb {
+  width: 48px;
+  height: 48px;
+  box-sizing: border-box;
+  border-radius: 100%;
+  background-color: #fff;
+}
+.company-profile-id-hm-text-x-hp1 {
+  width: 100%;
+  max-width: auto;
+  margin-top: 0;
+  min-height: auto;
+  text-align: left;
+  margin-bottom: 0;
+}
+.company-profile-id-hm-text-x-hp2 {
+  color: #000;
+  font-size: 36px;
+  font-style: normal;
+  margin-top: 0;
+  text-align: left;
+  font-family: "Work Sans",sans-serif;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 0;
+  letter-spacing: 0;
+  text-transform: none;
+  text-decoration: none;
+}
+.company-profile-id-hm-frame-image2-kn {
+  width: 64px;
+  height: 64px;
+  box-sizing: border-box;
+}
+.company-profile-id-hm-vector-j2 {
+  width: 100%;
+  height: 1px;
+  margin: 0;
+  display: block;
+  max-width: 10px;
+  border-top: 1px solid #000;
+  box-sizing: border-box;
+  max-height: 1px;
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+  border-bottom: 1px solid #000;
+}
+.company-profile-id-hm-frame-group4627-km {
+  width: 1300px;
+  max-width: 1300px;
+  box-sizing: border-box;
+  min-height: 461px;
+}
+.company-profile-id-hm-text-brand-title9l1 {
+  width: 100%;
+  max-width: auto;
+  margin-top: 0;
+  min-height: auto;
+  text-align: left;
+  margin-bottom: 0;
+}
+.company-profile-id-hm-text-brand-title9l2 {
+  color: #fff;
+  font-size: 128px;
+  font-style: normal;
+  margin-top: 0;
+  text-align: left;
+  font-family: "Work Sans",sans-serif;
+  font-weight: 700;
+  line-height: 128px;
+  margin-bottom: 0;
+  letter-spacing: 0;
+  text-transform: none;
+  text-decoration: none;
+}
+.company-profile-id-hm-text-headline6o1 {
+  width: 100%;
+  flex-grow: 1;
+  max-width: 1300px;
+  margin-top: 0;
+  min-height: auto;
+  text-align: center;
+  flex-shrink: 1;
+  margin-bottom: 0;
+}
+.company-profile-id-hm-text-headline6o2 {
+  color: #fff;
+  font-size: 44px;
+  font-style: normal;
+  margin-top: 0;
+  text-align: center;
+  font-family: "Plus Jakarta Sans",sans-serif;
+  font-weight: 700;
+  line-height: 56px;
+  margin-bottom: 0;
+  letter-spacing: 0;
+  text-transform: none;
+  text-decoration: none;
+}
+.company-profile-id-hm-text-descriptio-vn1 {
+  width: 100%;
+  max-width: 1000px;
+  margin-top: 0;
+  min-height: auto;
+  text-align: center;
+  margin-bottom: 0;
+}
+.company-profile-id-hm-text-descriptio-vn2 {
+  color: #fff;
+  font-size: 28px;
+  font-style: normal;
+  margin-top: 0;
+  text-align: center;
+  font-family: "Plus Jakarta Sans",sans-serif;
+  font-weight: 600;
+  line-height: 40px;
+  margin-bottom: 0;
+  letter-spacing: 0;
+  text-transform: none;
+  text-decoration: none;
+}
+.company-profile-id-hm-frame-hero-actions-ci {
+  gap: 24px;
+  width: fit-content;
+  height: auto;
+  display: flex;
+  padding: 24px 0 0;
+  overflow: hidden;
+  position: relative;
+  max-width: none;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.company-profile-id-hm-link15 {
+  display: contents;
+}
+.company-profile-id-hm-frame-action1h {
+  gap: 8px;
+  width: 168px;
+  cursor: pointer;
+  display: flex;
+  padding: 0 16px;
+  overflow: hidden;
+  position: relative;
+  max-width: 168px;
+  min-width: 44px;
+  box-sizing: border-box;
+  min-height: 44px;
+  align-items: center;
+  border-radius: 60px 60px 60px 60px;
+  justify-content: center;
+  background-color: #fff;
+}
+.company-profile-id-hm-text-label-lp1 {
+  width: 100%;
+  cursor: pointer;
+  max-width: auto;
+  margin-top: 0;
+  min-height: auto;
+  text-align: left;
+  margin-bottom: 0;
+}
+.company-profile-id-hm-text-label-lp2 {
+  color: #0d0d0f;
+  font-size: 16px;
+  font-style: normal;
+  margin-top: 0;
+  text-align: left;
+  font-family: "Plus Jakarta Sans",sans-serif;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 0;
+  letter-spacing: .15000000596046448px;
+  text-transform: none;
+  text-decoration: none;
+}
+.company-profile-id-hm-link16 {
+  display: contents;
+}
+.company-profile-id-hm-frame-action-yk {
+  gap: 8px;
+  width: 168px;
+  cursor: pointer;
+  display: flex;
+  padding: 0 16px;
+  overflow: hidden;
+  position: relative;
+  max-width: 168px;
+  min-width: 44px;
+  border-top: 1px solid #7b7b7b;
+  box-sizing: border-box;
+  min-height: 44px;
+  align-items: center;
+  border-left: 1px solid #7b7b7b;
+  border-right: 1px solid #7b7b7b;
+  border-bottom: 1px solid #7b7b7b;
+  border-radius: 60px 60px 60px 60px;
+  justify-content: center;
+}
+.company-profile-id-hm-text-label-gx1 {
+  width: 100%;
+  cursor: pointer;
+  max-width: auto;
+  margin-top: 0;
+  min-height: auto;
+  text-align: left;
+  margin-bottom: 0;
+}
+.company-profile-id-hm-text-label-gx2 {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  margin-top: 0;
+  text-align: left;
+  font-family: "Plus Jakarta Sans",sans-serif;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 0;
+  letter-spacing: .15000000596046448px;
+  text-transform: none;
+  text-decoration: none;
+}
+.company-profile-id-hm-text-title-nj1 {
+  width: 100%;
+  max-width: auto;
+  margin-top: 0;
+  min-height: auto;
+  text-align: center;
+  margin-bottom: 0;
+}
+.company-profile-id-hm-text-title-nj2 {
+  color: #fff;
+  font-size: 48px;
+  font-style: normal;
+  margin-top: 0;
+  text-align: center;
+  font-family: "Work Sans",sans-serif;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 0;
+  letter-spacing: 0;
+  text-transform: none;
+  text-decoration: none;
+}
+.company-profile-id-hm-frame-products-header-g6 {
+  width: 1200px;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  flex-grow: 1;
+  max-width: 1200px;
+  box-sizing: border-box;
+  align-items: center;
+  flex-shrink: 1;
+  justify-content: space-between;
+}
+.company-profile-id-hm-text-title551 {
+  width: 100%;
+  max-width: auto;
+  margin-top: 0;
+  min-height: auto;
+  text-align: left;
+  margin-bottom: 0;
+}
+.company-profile-id-hm-text-title552 {
+  color: #1b1b1b;
+  font-size: 36px;
+  font-style: normal;
+  margin-top: 0;
+  text-align: left;
+  font-family: "Plus Jakarta Sans",sans-serif;
+  font-weight: 500;
+  line-height: 44px;
+  margin-bottom: 0;
+  letter-spacing: 0;
+  text-transform: none;
+  text-decoration: none;
+}
+.company-profile-id-hm-frame-search-bar28 {
+  gap: 16px;
+  width: 360px;
+  display: flex;
+  padding: 0 16px;
+  overflow: hidden;
+  position: relative;
+  max-width: 360px;
+  box-sizing: border-box;
+  min-height: 56px;
+  align-items: center;
+  border-radius: 999px 999px 999px 999px;
+  justify-content: flex-start;
+  background-color: #e8e8e8;
+}
+.company-profile-id-hm-vector-search-icon-r7 {
+  width: 24px;
+  margin: 0;
+  display: block;
+  overflow: hidden;
+  max-width: 24px;
+  box-sizing: border-box;
+  min-height: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.company-profile-id-hm-text-placeholde-sq1 {
+  width: 100%;
+  max-width: auto;
+  margin-top: 0;
+  min-height: auto;
+  text-align: left;
+  margin-bottom: 0;
+}
+.company-profile-id-hm-text-placeholde-sq2 {
+  color: #474747;
+  font-size: 16px;
+  font-style: normal;
+  margin-top: 0;
+  text-align: left;
+  font-family: "Plus Jakarta Sans",sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 0;
+  letter-spacing: .5px;
+  text-transform: none;
+  text-decoration: none;
+}
+.company-profile-id-hm-frame-product-grid6w {
+  gap: 24px;
+  width: 1200px;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  flex-grow: 1;
+  max-width: 1200px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  justify-content: flex-start;
+}
+.company-profile-id-hm-link17 {
+  display: contents;
+}
+.company-profile-id-hm-frame-product-card-ap {
+  width: 100%;
+  cursor: pointer;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  flex-grow: 1;
+  max-width: 221px;
+  border-top: 1px solid #c8c8c8;
+  box-sizing: border-box;
+  align-items: flex-start;
+  border-left: 1px solid #c8c8c8;
+  flex-shrink: 1;
+  border-right: 1px solid #c8c8c8;
+  border-bottom: 1px solid #c8c8c8;
+  border-radius: 12px 12px 12px 12px;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #fff;
+}
+.company-profile-id-hm-image-product-image-y1 {
+  width: 219px;
+  height: 240px;
+  margin: 0;
+  display: block;
+  align-self: stretch;
+  box-sizing: border-box;
+  object-fit: cover;
+}
+.company-profile-id-hm-frame-info92 {
+  gap: 4px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding: 16px 16px 0;
+  overflow: hidden;
+  position: relative;
+  max-width: 219px;
+  align-self: stretch;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.company-profile-id-hm-text-name-bz1 {
+  width: 100%;
+  max-width: 100%;
+  align-self: stretch;
+  margin-top: 0;
+  min-height: auto;
+  text-align: left;
+  margin-bottom: 0;
+}
+.company-profile-id-hm-text-name-bz2 {
+  color: #1b1b1b;
+  font-size: 16px;
+  font-style: normal;
+  margin-top: 0;
+  text-align: left;
+  font-family: "Plus Jakarta Sans",sans-serif;
+  font-weight: 500;
+  line-height: 24px;
+  margin-bottom: 0;
+  letter-spacing: .15000000596046448px;
+  text-transform: none;
+  text-decoration: none;
+}
+.company-profile-id-hm-text-price-n01 {
+  width: 100%;
+  max-width: auto;
+  margin-top: 0;
+  min-height: auto;
+  text-align: left;
+  margin-bottom: 0;
+}
+.company-profile-id-hm-text-price-n02 {
+  color: #474747;
+  font-size: 14px;
+  font-style: normal;
+  margin-top: 0;
+  text-align: left;
+  font-family: "Plus Jakarta Sans",sans-serif;
+  font-weight: 400;
+  line-height: 20px;
+  margin-bottom: 0;
+  letter-spacing: .25px;
+  text-transform: none;
+  text-decoration: none;
+}
+.company-profile-id-hm-frame-actions-px {
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding: 8px 8px 8px 4px;
+  overflow: hidden;
+  position: relative;
+  max-width: 219px;
+  align-self: stretch;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.company-profile-id-hm-frame-button0y {
+  gap: 8px;
+  width: fit-content;
+  height: auto;
+  display: flex;
+  padding: 10px 12px;
+  position: relative;
+  max-width: none;
+  box-sizing: border-box;
+  min-height: 40px;
+  align-items: center;
+  border-radius: 999px 999px 999px 999px;
+  justify-content: center;
+}
+.company-profile-id-hm-text-label-e11 {
+  width: 100%;
+  max-width: auto;
+  margin-top: 0;
+  min-height: auto;
+  text-align: left;
+  margin-bottom: 0;
+}
+.company-profile-id-hm-text-label-e12 {
+  color: #1a1a1a;
+  font-size: 14px;
+  font-style: normal;
+  margin-top: 0;
+  text-align: left;
+  font-family: "Plus Jakarta Sans",sans-serif;
+  font-weight: 500;
+  line-height: 20px;
+  margin-bottom: 0;
+  letter-spacing: .10000000149011612px;
+  text-transform: none;
+  text-decoration: none;
+}
+.company-profile-id-hm-link18 {
+  display: contents;
+}
+.company-profile-id-hm-frame-product-card-lq {
+  width: 100%;
+  cursor: pointer;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  flex-grow: 1;
+  max-width: 221px;
+  border-top: 1px solid #c8c8c8;
+  box-sizing: border-box;
+  align-items: flex-start;
+  border-left: 1px solid #c8c8c8;
+  flex-shrink: 1;
+  border-right: 1px solid #c8c8c8;
+  border-bottom: 1px solid #c8c8c8;
+  border-radius: 12px 12px 12px 12px;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #fff;
+}
+.company-profile-id-hm-image-product-image-my {
+  width: 219px;
+  height: 240px;
+  margin: 0;
+  display: block;
+  align-self: stretch;
+  box-sizing: border-box;
+  object-fit: cover;
+}
+.company-profile-id-hm-frame-info-bx {
+  gap: 4px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding: 16px 16px 0;
+  overflow: hidden;
+  position: relative;
+  max-width: 219px;
+  align-self: stretch;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.company-profile-id-hm-text-name-h41 {
+  width: 100%;
+  max-width: 100%;
+  align-self: stretch;
+  margin-top: 0;
+  min-height: auto;
+  text-align: left;
+  margin-bottom: 0;
+}
+.company-profile-id-hm-text-name-h42 {
+  color: #1b1b1b;
+  font-size: 16px;
+  font-style: normal;
+  margin-top: 0;
+  text-align: left;
+  font-family: "Plus Jakarta Sans",sans-serif;
+  font-weight: 500;
+  line-height: 24px;
+  margin-bottom: 0;
+  letter-spacing: .15000000596046448px;
+  text-transform: none;
+  text-decoration: none;
+}
+.company-profile-id-hm-text-price631 {
+  width: 100%;
+  max-width: auto;
+  margin-top: 0;
+  min-height: auto;
+  text-align: left;
+  margin-bottom: 0;
+}
+.company-profile-id-hm-text-price632 {
+  color: #474747;
+  font-size: 14px;
+  font-style: normal;
+  margin-top: 0;
+  text-align: left;
+  font-family: "Plus Jakarta Sans",sans-serif;
+  font-weight: 400;
+  line-height: 20px;
+  margin-bottom: 0;
+  letter-spacing: .25px;
+  text-transform: none;
+  text-decoration: none;
+}
+.company-profile-id-hm-frame-actions-v2 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding: 8px 8px 8px 4px;
+  overflow: hidden;
+  position: relative;
+  max-width: 219px;
+  align-self: stretch;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.company-profile-id-hm-frame-button-k1 {
+  gap: 8px;
+  width: fit-content;
+  height: auto;
+  display: flex;
+  padding: 10px 12px;
+  position: relative;
+  max-width: none;
+  box-sizing: border-box;
+  min-height: 40px;
+  align-items: center;
+  border-radius: 999px 999px 999px 999px;
+  justify-content: center;
+}
+.company-profile-id-hm-text-label6u1 {
+  width: 100%;
+  max-width: auto;
+  margin-top: 0;
+  min-height: auto;
+  text-align: left;
+  margin-bottom: 0;
+}
+.company-profile-id-hm-text-label6u2 {
+  color: #1a1a1a;
+  font-size: 14px;
+  font-style: normal;
+  margin-top: 0;
+  text-align: left;
+  font-family: "Plus Jakarta Sans",sans-serif;
+  font-weight: 500;
+  line-height: 20px;
+  margin-bottom: 0;
+  letter-spacing: .10000000149011612px;
+  text-transform: none;
+  text-decoration: none;
+}
+.company-profile-id-hm-link19 {
+  display: contents;
+}
+.company-profile-id-hm-frame-product-card-on {
+  width: 100%;
+  cursor: pointer;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  flex-grow: 1;
+  max-width: 221px;
+  border-top: 1px solid #c8c8c8;
+  box-sizing: border-box;
+  align-items: flex-start;
+  border-left: 1px solid #c8c8c8;
+  flex-shrink: 1;
+  border-right: 1px solid #c8c8c8;
+  border-bottom: 1px solid #c8c8c8;
+  border-radius: 12px 12px 12px 12px;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #fff;
+}
+.company-profile-id-hm-image-product-image6f {
+  width: 219px;
+  height: 240px;
+  margin: 0;
+  display: block;
+  align-self: stretch;
+  box-sizing: border-box;
+  object-fit: cover;
+}
+.company-profile-id-hm-frame-info-hg {
+  gap: 4px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding: 16px 16px 0;
+  overflow: hidden;
+  position: relative;
+  max-width: 219px;
+  align-self: stretch;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.company-profile-id-hm-text-name-sh1 {
+  width: 100%;
+  max-width: 100%;
+  align-self: stretch;
+  margin-top: 0;
+  min-height: auto;
+  text-align: left;
+  margin-bottom: 0;
+}
+.company-profile-id-hm-text-name-sh2 {
+  color: #1b1b1b;
+  font-size: 16px;
+  font-style: normal;
+  margin-top: 0;
+  text-align: left;
+  font-family: "Plus Jakarta Sans",sans-serif;
+  font-weight: 500;
+  line-height: 24px;
+  margin-bottom: 0;
+  letter-spacing: .15000000596046448px;
+  text-transform: none;
+  text-decoration: none;
+}
+.company-profile-id-hm-text-price3i1 {
+  width: 100%;
+  max-width: auto;
+  margin-top: 0;
+  min-height: auto;
+  text-align: left;
+  margin-bottom: 0;
+}
+.company-profile-id-hm-text-price3i2 {
+  color: #474747;
+  font-size: 14px;
+  font-style: normal;
+  margin-top: 0;
+  text-align: left;
+  font-family: "Plus Jakarta Sans",sans-serif;
+  font-weight: 400;
+  line-height: 20px;
+  margin-bottom: 0;
+  letter-spacing: .25px;
+  text-transform: none;
+  text-decoration: none;
+}
+.company-profile-id-hm-frame-actions-ej {
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding: 8px 8px 8px 4px;
+  overflow: hidden;
+  position: relative;
+  max-width: 219px;
+  align-self: stretch;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.company-profile-id-hm-frame-button-pk {
+  gap: 8px;
+  width: fit-content;
+  height: auto;
+  display: flex;
+  padding: 10px 12px;
+  position: relative;
+  max-width: none;
+  box-sizing: border-box;
+  min-height: 40px;
+  align-items: center;
+  border-radius: 999px 999px 999px 999px;
+  justify-content: center;
+}
+.company-profile-id-hm-text-label4j1 {
+  width: 100%;
+  max-width: auto;
+  margin-top: 0;
+  min-height: auto;
+  text-align: left;
+  margin-bottom: 0;
+}
+.company-profile-id-hm-text-label4j2 {
+  color: #1a1a1a;
+  font-size: 14px;
+  font-style: normal;
+  margin-top: 0;
+  text-align: left;
+  font-family: "Plus Jakarta Sans",sans-serif;
+  font-weight: 500;
+  line-height: 20px;
+  margin-bottom: 0;
+  letter-spacing: .10000000149011612px;
+  text-transform: none;
+  text-decoration: none;
+}
+.company-profile-id-hm-link20 {
+  display: contents;
+}
+.company-profile-id-hm-frame-product-card-zo {
+  width: 100%;
+  cursor: pointer;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  flex-grow: 1;
+  max-width: 221px;
+  border-top: 1px solid #c8c8c8;
+  box-sizing: border-box;
+  align-items: flex-start;
+  border-left: 1px solid #c8c8c8;
+  flex-shrink: 1;
+  border-right: 1px solid #c8c8c8;
+  border-bottom: 1px solid #c8c8c8;
+  border-radius: 12px 12px 12px 12px;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #fff;
+}
+.company-profile-id-hm-image-product-image-dc {
+  width: 219px;
+  height: 240px;
+  margin: 0;
+  display: block;
+  align-self: stretch;
+  box-sizing: border-box;
+  object-fit: cover;
+}
+.company-profile-id-hm-frame-info2b {
+  gap: 4px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding: 16px 16px 0;
+  overflow: hidden;
+  position: relative;
+  max-width: 219px;
+  align-self: stretch;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.company-profile-id-hm-text-name-j61 {
+  width: 100%;
+  max-width: 100%;
+  align-self: stretch;
+  margin-top: 0;
+  min-height: auto;
+  text-align: left;
+  margin-bottom: 0;
+}
+.company-profile-id-hm-text-name-j62 {
+  color: #1b1b1b;
+  font-size: 16px;
+  font-style: normal;
+  margin-top: 0;
+  text-align: left;
+  font-family: "Plus Jakarta Sans",sans-serif;
+  font-weight: 500;
+  line-height: 24px;
+  margin-bottom: 0;
+  letter-spacing: .15000000596046448px;
+  text-transform: none;
+  text-decoration: none;
+}
+.company-profile-id-hm-text-price851 {
+  width: 100%;
+  max-width: auto;
+  margin-top: 0;
+  min-height: auto;
+  text-align: left;
+  margin-bottom: 0;
+}
+.company-profile-id-hm-text-price852 {
+  color: #474747;
+  font-size: 14px;
+  font-style: normal;
+  margin-top: 0;
+  text-align: left;
+  font-family: "Plus Jakarta Sans",sans-serif;
+  font-weight: 400;
+  line-height: 20px;
+  margin-bottom: 0;
+  letter-spacing: .25px;
+  text-transform: none;
+  text-decoration: none;
+}
+.company-profile-id-hm-frame-actions58 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding: 8px 8px 8px 4px;
+  overflow: hidden;
+  position: relative;
+  max-width: 219px;
+  align-self: stretch;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.company-profile-id-hm-frame-button-u7 {
+  gap: 8px;
+  width: fit-content;
+  height: auto;
+  display: flex;
+  padding: 10px 12px;
+  position: relative;
+  max-width: none;
+  box-sizing: border-box;
+  min-height: 40px;
+  align-items: center;
+  border-radius: 999px 999px 999px 999px;
+  justify-content: center;
+}
+.company-profile-id-hm-text-label481 {
+  width: 100%;
+  max-width: auto;
+  margin-top: 0;
+  min-height: auto;
+  text-align: left;
+  margin-bottom: 0;
+}
+.company-profile-id-hm-text-label482 {
+  color: #1a1a1a;
+  font-size: 14px;
+  font-style: normal;
+  margin-top: 0;
+  text-align: left;
+  font-family: "Plus Jakarta Sans",sans-serif;
+  font-weight: 500;
+  line-height: 20px;
+  margin-bottom: 0;
+  letter-spacing: .10000000149011612px;
+  text-transform: none;
+  text-decoration: none;
+}
+.company-profile-id-hm-link21 {
+  display: contents;
+}
+.company-profile-id-hm-frame-product-card2l {
+  width: 100%;
+  cursor: pointer;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  flex-grow: 1;
+  max-width: 221px;
+  border-top: 1px solid #c8c8c8;
+  box-sizing: border-box;
+  align-items: flex-start;
+  border-left: 1px solid #c8c8c8;
+  flex-shrink: 1;
+  border-right: 1px solid #c8c8c8;
+  border-bottom: 1px solid #c8c8c8;
+  border-radius: 12px 12px 12px 12px;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #fff;
+}
+.company-profile-id-hm-image-product-image-h1 {
+  width: 219px;
+  height: 240px;
+  margin: 0;
+  display: block;
+  align-self: stretch;
+  box-sizing: border-box;
+  object-fit: cover;
+}
+.company-profile-id-hm-frame-info-s2 {
+  gap: 4px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding: 16px 16px 0;
+  overflow: hidden;
+  position: relative;
+  max-width: 219px;
+  align-self: stretch;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.company-profile-id-hm-text-name-b71 {
+  width: 100%;
+  max-width: 100%;
+  align-self: stretch;
+  margin-top: 0;
+  min-height: auto;
+  text-align: left;
+  margin-bottom: 0;
+}
+.company-profile-id-hm-text-name-b72 {
+  color: #1b1b1b;
+  font-size: 16px;
+  font-style: normal;
+  margin-top: 0;
+  text-align: left;
+  font-family: "Plus Jakarta Sans",sans-serif;
+  font-weight: 500;
+  line-height: 24px;
+  margin-bottom: 0;
+  letter-spacing: .15000000596046448px;
+  text-transform: none;
+  text-decoration: none;
+}
+.company-profile-id-hm-text-price-m81 {
+  width: 100%;
+  max-width: auto;
+  margin-top: 0;
+  min-height: auto;
+  text-align: left;
+  margin-bottom: 0;
+}
+.company-profile-id-hm-text-price-m82 {
+  color: #474747;
+  font-size: 14px;
+  font-style: normal;
+  margin-top: 0;
+  text-align: left;
+  font-family: "Plus Jakarta Sans",sans-serif;
+  font-weight: 400;
+  line-height: 20px;
+  margin-bottom: 0;
+  letter-spacing: .25px;
+  text-transform: none;
+  text-decoration: none;
+}
+.company-profile-id-hm-frame-actions-p5 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding: 8px 8px 8px 4px;
+  overflow: hidden;
+  position: relative;
+  max-width: 219px;
+  align-self: stretch;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.company-profile-id-hm-frame-button06 {
+  gap: 8px;
+  width: fit-content;
+  height: auto;
+  display: flex;
+  padding: 10px 12px;
+  position: relative;
+  max-width: none;
+  box-sizing: border-box;
+  min-height: 40px;
+  align-items: center;
+  border-radius: 999px 999px 999px 999px;
+  justify-content: center;
+}
+.company-profile-id-hm-text-label651 {
+  width: 100%;
+  max-width: auto;
+  margin-top: 0;
+  min-height: auto;
+  text-align: left;
+  margin-bottom: 0;
+}
+.company-profile-id-hm-text-label652 {
+  color: #1a1a1a;
+  font-size: 14px;
+  font-style: normal;
+  margin-top: 0;
+  text-align: left;
+  font-family: "Plus Jakarta Sans",sans-serif;
+  font-weight: 500;
+  line-height: 20px;
+  margin-bottom: 0;
+  letter-spacing: .10000000149011612px;
+  text-transform: none;
+  text-decoration: none;
+}
+.company-profile-id-hm-frame-catalogue-action-dm {
+  width: 1200px;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  flex-grow: 1;
+  max-width: 1200px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  justify-content: center;
+}
+.company-profile-id-hm-frame-button-c3 {
+  gap: 8px;
+  width: fit-content;
+  height: auto;
+  display: flex;
+  padding: 10px 24px;
+  position: relative;
+  max-width: none;
+  box-sizing: border-box;
+  min-height: 40px;
+  align-items: center;
+  border-radius: 999px 999px 999px 999px;
+  justify-content: center;
+  background-color: #e8e8e8;
+}
+.company-profile-id-hm-text-label-zd1 {
+  width: 100%;
+  max-width: auto;
+  margin-top: 0;
+  min-height: auto;
+  text-align: left;
+  margin-bottom: 0;
+}
+.company-profile-id-hm-text-label-zd2 {
+  color: #1a1a1a;
+  font-size: 14px;
+  font-style: normal;
+  margin-top: 0;
+  text-align: left;
+  font-family: "Plus Jakarta Sans",sans-serif;
+  font-weight: 500;
+  line-height: 20px;
+  margin-bottom: 0;
+  letter-spacing: .10000000149011612px;
+  text-transform: none;
+  text-decoration: none;
+}
+.company-profile-id-hm-frame-about-heading8r,.company-profile-id-hm-frame-about-row-xq {
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.company-profile-id-hm-frame-about-row-xq {
+  gap: 24px;
+  width: 1200px;
+  flex-grow: 1;
+  max-width: 1200px;
+  flex-shrink: 1;
+}
+.company-profile-id-hm-frame-about-heading8r {
+  gap: 16px;
+  width: 384px;
+  max-width: 384px;
+  flex-direction: column;
+}
+.company-profile-id-hm-text-title-js1 {
+  width: 100%;
+  max-width: auto;
+  margin-top: 0;
+  min-height: auto;
+  text-align: left;
+  margin-bottom: 0;
+}
+.company-profile-id-hm-text-title-js2 {
+  color: #000;
+  font-size: 36px;
+  font-style: normal;
+  margin-top: 0;
+  text-align: left;
+  font-family: "Plus Jakarta Sans",sans-serif;
+  font-weight: 500;
+  line-height: 44px;
+  margin-bottom: 0;
+  letter-spacing: 0;
+  text-transform: none;
+  text-decoration: none;
+}
+.company-profile-id-hm-frame-about-body-ut {
+  gap: 24px;
+  width: 792px;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  max-width: 792px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.company-profile-id-hm-text-paragraph15u1 {
+  width: 100%;
+  max-width: 100%;
+  align-self: stretch;
+  margin-top: 0;
+  min-height: auto;
+  text-align: left;
+  margin-bottom: 0;
+}
+.company-profile-id-hm-text-paragraph15u2 {
+  color: #000;
+  font-size: 24px;
+  font-style: normal;
+  margin-top: 0;
+  text-align: left;
+  font-family: "Plus Jakarta Sans",sans-serif;
+  font-weight: 500;
+  line-height: 32px;
+  margin-bottom: 0;
+  letter-spacing: 0;
+  text-transform: none;
+  text-decoration: none;
+}
+.company-profile-id-hm-text-paragraph2-xg1 {
+  width: 100%;
+  max-width: 100%;
+  align-self: stretch;
+  margin-top: 0;
+  min-height: auto;
+  text-align: left;
+  margin-bottom: 0;
+}
+.company-profile-id-hm-text-paragraph2-xg2 {
+  color: #000;
+  font-size: 24px;
+  font-style: normal;
+  margin-top: 0;
+  text-align: left;
+  font-family: "Plus Jakarta Sans",sans-serif;
+  font-weight: 500;
+  line-height: 32px;
+  margin-bottom: 0;
+  letter-spacing: 0;
+  text-transform: none;
+  text-decoration: none;
+}
+.company-profile-id-hm-frame-divider-mf {
+  width: 792px;
+  height: 1px;
+  align-self: stretch;
+  box-sizing: border-box;
+  background-color: #1a1a1a;
+}
+.company-profile-id-hm-text-closing-statement-be1 {
+  width: 100%;
+  max-width: 100%;
+  align-self: stretch;
+  margin-top: 0;
+  min-height: auto;
+  text-align: left;
+  margin-bottom: 0;
+}
+.company-profile-id-hm-text-closing-statement-be2 {
+  color: #1a1a1a;
+  font-size: 24px;
+  font-style: normal;
+  margin-top: 0;
+  text-align: left;
+  font-family: "Plus Jakarta Sans",sans-serif;
+  font-weight: 600;
+  line-height: 32px;
+  margin-bottom: 0;
+  letter-spacing: 0;
+  text-transform: none;
+  text-decoration: none;
+}
+.company-profile-id-hm-frame-quality-heading-ed,.company-profile-id-hm-frame-quality-partnershi-bg {
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.company-profile-id-hm-frame-quality-partnershi-bg {
+  gap: 64px;
+  width: 1440px;
+  padding: 96px 120px;
+  flex-grow: 1;
+  max-width: 1440px;
+  flex-shrink: 1;
+  background-color: #18181b;
+}
+.company-profile-id-hm-frame-quality-heading-ed {
+  gap: 12px;
+  width: 100%;
+  max-width: 1200px;
+  align-self: stretch;
+}
+.company-profile-id-hm-text-title-pe1 {
+  width: 100%;
+  max-width: auto;
+  margin-top: 0;
+  min-height: auto;
+  text-align: left;
+  margin-bottom: 0;
+}
+.company-profile-id-hm-text-title-pe2 {
+  color: #fafafa;
+  font-size: 36px;
+  font-style: normal;
+  margin-top: 0;
+  text-align: left;
+  font-family: "Plus Jakarta Sans",sans-serif;
+  font-weight: 500;
+  line-height: 44px;
+  margin-bottom: 0;
+  letter-spacing: 0;
+  text-transform: none;
+  text-decoration: none;
+}
+.company-profile-id-hm-text-subtitle-sb1 {
+  width: 100%;
+  max-width: 100%;
+  align-self: stretch;
+  margin-top: 0;
+  min-height: auto;
+  text-align: left;
+  margin-bottom: 0;
+}
+.company-profile-id-hm-text-subtitle-sb2 {
+  color: #c8c8c8;
+  font-size: 24px;
+  font-style: normal;
+  margin-top: 0;
+  text-align: left;
+  font-family: "Plus Jakarta Sans",sans-serif;
+  font-weight: 500;
+  line-height: 32px;
+  margin-bottom: 0;
+  letter-spacing: 0;
+  text-transform: none;
+  text-decoration: none;
+}
+.company-profile-id-hm-frame-process-steps3c,.company-profile-id-hm-frame-step1-ze {
+  width: 100%;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.company-profile-id-hm-frame-process-steps3c {
+  gap: 24px;
+  max-width: 1200px;
+  align-self: stretch;
+}
+.company-profile-id-hm-frame-step1-ze {
+  gap: 16px;
+  flex-grow: 1;
+  max-width: 282px;
+  flex-shrink: 1;
+  flex-direction: column;
+}
+.company-profile-id-hm-frame-marker-od,.company-profile-id-hm-frame-step-number-lg {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  box-sizing: border-box;
+  align-items: center;
+}
+.company-profile-id-hm-frame-marker-od {
+  width: 100%;
+  height: auto;
+  max-width: 282px;
+  align-self: stretch;
+  justify-content: flex-start;
+}
+.company-profile-id-hm-frame-step-number-lg {
+  width: 40px;
+  max-width: 40px;
+  border-top: 1px solid #777;
+  min-height: 40px;
+  border-left: 1px solid #777;
+  border-right: 1px solid #777;
+  border-bottom: 1px solid #777;
+  border-radius: 999px 999px 999px 999px;
+  justify-content: center;
+}
+.company-profile-id-hm-text-number-af1 {
+  width: 100%;
+  max-width: auto;
+  margin-top: 0;
+  min-height: auto;
+  text-align: left;
+  margin-bottom: 0;
+}
+.company-profile-id-hm-text-number-af2 {
+  color: #fafafa;
+  font-size: 14px;
+  font-style: normal;
+  margin-top: 0;
+  text-align: left;
+  font-family: "Plus Jakarta Sans",sans-serif;
+  font-weight: 500;
+  line-height: 20px;
+  margin-bottom: 0;
+  letter-spacing: .10000000149011612px;
+  text-transform: none;
+  text-decoration: none;
+}
+.company-profile-id-hm-frame-connector7i {
+  width: 242px;
+  height: 1px;
+  flex-grow: 1;
+  box-sizing: border-box;
+  flex-shrink: 1;
+  background-color: #777;
+}
+.company-profile-id-hm-text-label-wh1 {
+  width: 100%;
+  max-width: 100%;
+  align-self: stretch;
+  margin-top: 0;
+  min-height: auto;
+  text-align: left;
+  margin-bottom: 0;
+}
+.company-profile-id-hm-text-label-wh2 {
+  color: #fafafa;
+  font-size: 22px;
+  font-style: normal;
+  margin-top: 0;
+  text-align: left;
+  font-family: "Plus Jakarta Sans",sans-serif;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 0;
+  letter-spacing: 0;
+  text-transform: none;
+  text-decoration: none;
+}
+.company-profile-id-hm-frame-step2-tk {
+  gap: 16px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  flex-grow: 1;
+  max-width: 282px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.company-profile-id-hm-frame-marker-ij,.company-profile-id-hm-frame-step-number-fm {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  box-sizing: border-box;
+  align-items: center;
+}
+.company-profile-id-hm-frame-marker-ij {
+  width: 100%;
+  height: auto;
+  max-width: 282px;
+  align-self: stretch;
+  justify-content: flex-start;
+}
+.company-profile-id-hm-frame-step-number-fm {
+  width: 40px;
+  max-width: 40px;
+  border-top: 1px solid #777;
+  min-height: 40px;
+  border-left: 1px solid #777;
+  border-right: 1px solid #777;
+  border-bottom: 1px solid #777;
+  border-radius: 999px 999px 999px 999px;
+  justify-content: center;
+}
+.company-profile-id-hm-text-number4l1 {
+  width: 100%;
+  max-width: auto;
+  margin-top: 0;
+  min-height: auto;
+  text-align: left;
+  margin-bottom: 0;
+}
+.company-profile-id-hm-text-number4l2 {
+  color: #fafafa;
+  font-size: 14px;
+  font-style: normal;
+  margin-top: 0;
+  text-align: left;
+  font-family: "Plus Jakarta Sans",sans-serif;
+  font-weight: 500;
+  line-height: 20px;
+  margin-bottom: 0;
+  letter-spacing: .10000000149011612px;
+  text-transform: none;
+  text-decoration: none;
+}
+.company-profile-id-hm-frame-connector-bl {
+  width: 242px;
+  height: 1px;
+  flex-grow: 1;
+  box-sizing: border-box;
+  flex-shrink: 1;
+  background-color: #777;
+}
+.company-profile-id-hm-text-label-mm1 {
+  width: 100%;
+  max-width: 100%;
+  align-self: stretch;
+  margin-top: 0;
+  min-height: auto;
+  text-align: left;
+  margin-bottom: 0;
+}
+.company-profile-id-hm-text-label-mm2 {
+  color: #fafafa;
+  font-size: 22px;
+  font-style: normal;
+  margin-top: 0;
+  text-align: left;
+  font-family: "Plus Jakarta Sans",sans-serif;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 0;
+  letter-spacing: 0;
+  text-transform: none;
+  text-decoration: none;
+}
+.company-profile-id-hm-frame-step3-xn {
+  gap: 16px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  flex-grow: 1;
+  max-width: 282px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.company-profile-id-hm-frame-marker8o,.company-profile-id-hm-frame-step-number3h {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  box-sizing: border-box;
+  align-items: center;
+}
+.company-profile-id-hm-frame-marker8o {
+  width: 100%;
+  height: auto;
+  max-width: 282px;
+  align-self: stretch;
+  justify-content: flex-start;
+}
+.company-profile-id-hm-frame-step-number3h {
+  width: 40px;
+  max-width: 40px;
+  border-top: 1px solid #777;
+  min-height: 40px;
+  border-left: 1px solid #777;
+  border-right: 1px solid #777;
+  border-bottom: 1px solid #777;
+  border-radius: 999px 999px 999px 999px;
+  justify-content: center;
+}
+.company-profile-id-hm-text-number-ei1 {
+  width: 100%;
+  max-width: auto;
+  margin-top: 0;
+  min-height: auto;
+  text-align: left;
+  margin-bottom: 0;
+}
+.company-profile-id-hm-text-number-ei2 {
+  color: #fafafa;
+  font-size: 14px;
+  font-style: normal;
+  margin-top: 0;
+  text-align: left;
+  font-family: "Plus Jakarta Sans",sans-serif;
+  font-weight: 500;
+  line-height: 20px;
+  margin-bottom: 0;
+  letter-spacing: .10000000149011612px;
+  text-transform: none;
+  text-decoration: none;
+}
+.company-profile-id-hm-frame-connector-pj {
+  width: 242px;
+  height: 1px;
+  flex-grow: 1;
+  box-sizing: border-box;
+  flex-shrink: 1;
+  background-color: #777;
+}
+.company-profile-id-hm-text-label0k1 {
+  width: 100%;
+  max-width: 100%;
+  align-self: stretch;
+  margin-top: 0;
+  min-height: auto;
+  text-align: left;
+  margin-bottom: 0;
+}
+.company-profile-id-hm-text-label0k2 {
+  color: #fafafa;
+  font-size: 22px;
+  font-style: normal;
+  margin-top: 0;
+  text-align: left;
+  font-family: "Plus Jakarta Sans",sans-serif;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 0;
+  letter-spacing: 0;
+  text-transform: none;
+  text-decoration: none;
+}
+.company-profile-id-hm-frame-step4-rt {
+  gap: 16px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  flex-grow: 1;
+  max-width: 282px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.company-profile-id-hm-frame-marker2u,.company-profile-id-hm-frame-step-number-ns {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  box-sizing: border-box;
+  align-items: center;
+}
+.company-profile-id-hm-frame-marker2u {
+  width: 100%;
+  height: auto;
+  max-width: 282px;
+  align-self: stretch;
+  justify-content: flex-start;
+}
+.company-profile-id-hm-frame-step-number-ns {
+  width: 40px;
+  max-width: 40px;
+  border-top: 1px solid #777;
+  min-height: 40px;
+  border-left: 1px solid #777;
+  border-right: 1px solid #777;
+  border-bottom: 1px solid #777;
+  border-radius: 999px 999px 999px 999px;
+  justify-content: center;
+}
+.company-profile-id-hm-text-number-cr1 {
+  width: 100%;
+  max-width: auto;
+  margin-top: 0;
+  min-height: auto;
+  text-align: left;
+  margin-bottom: 0;
+}
+.company-profile-id-hm-text-number-cr2 {
+  color: #fafafa;
+  font-size: 14px;
+  font-style: normal;
+  margin-top: 0;
+  text-align: left;
+  font-family: "Plus Jakarta Sans",sans-serif;
+  font-weight: 500;
+  line-height: 20px;
+  margin-bottom: 0;
+  letter-spacing: .10000000149011612px;
+  text-transform: none;
+  text-decoration: none;
+}
+.company-profile-id-hm-frame-connector1q {
+  width: 242px;
+  height: 1px;
+  flex-grow: 1;
+  box-sizing: border-box;
+  flex-shrink: 1;
+  background-color: #777;
+}
+.company-profile-id-hm-text-label-qp1 {
+  width: 100%;
+  max-width: 100%;
+  align-self: stretch;
+  margin-top: 0;
+  min-height: auto;
+  text-align: left;
+  margin-bottom: 0;
+}
+.company-profile-id-hm-text-label-qp2 {
+  color: #fafafa;
+  font-size: 22px;
+  font-style: normal;
+  margin-top: 0;
+  text-align: left;
+  font-family: "Plus Jakarta Sans",sans-serif;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 0;
+  letter-spacing: 0;
+  text-transform: none;
+  text-decoration: none;
+}
+.company-profile-id-hm-frame-partnershi-cta-fo {
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding: 48px 0 0;
+  overflow: hidden;
+  position: relative;
+  max-width: 1200px;
+  align-self: stretch;
+  border-top: 1px solid #777;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
+}
+.company-profile-id-hm-text-cta-headline4n1 {
+  width: 100%;
+  max-width: auto;
+  margin-top: 0;
+  min-height: auto;
+  text-align: left;
+  margin-bottom: 0;
+}
+.company-profile-id-hm-text-cta-headline4n2 {
+  color: #fafafa;
+  font-size: 32px;
+  font-style: normal;
+  margin-top: 0;
+  text-align: left;
+  font-family: "Plus Jakarta Sans",sans-serif;
+  font-weight: 500;
+  line-height: 40px;
+  margin-bottom: 0;
+  letter-spacing: 0;
+  text-transform: none;
+  text-decoration: none;
+}
+.company-profile-id-hm-link22 {
+  display: contents;
+}
+.company-profile-id-hm-frame-button-tm {
+  gap: 8px;
+  width: fit-content;
+  cursor: pointer;
+  height: auto;
+  display: flex;
+  padding: 10px 24px;
+  position: relative;
+  max-width: none;
+  box-sizing: border-box;
+  min-height: 40px;
+  align-items: center;
+  border-radius: 999px 999px 999px 999px;
+  justify-content: center;
+  background-color: #fff;
+}
+.company-profile-id-hm-text-label-ne1 {
+  width: 100%;
+  max-width: auto;
+  margin-top: 0;
+  min-height: auto;
+  text-align: left;
+  margin-bottom: 0;
+}
+.company-profile-id-hm-text-label-ne2 {
+  color: #18181b;
+  font-size: 14px;
+  font-style: normal;
+  margin-top: 0;
+  text-align: left;
+  font-family: "Plus Jakarta Sans",sans-serif;
+  font-weight: 500;
+  line-height: 20px;
+  margin-bottom: 0;
+  letter-spacing: .10000000149011612px;
+  text-transform: none;
+  text-decoration: none;
+}
+.company-profile-id-hm-frame-location-row40,.company-profile-id-hm-frame-our-contact-il {
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.company-profile-id-hm-frame-our-contact-il {
+  width: 1440px;
+  padding: 96px 120px;
+  flex-grow: 1;
+  max-width: 1440px;
+  flex-shrink: 1;
+  flex-direction: column;
+  background-color: #fafafa;
+}
+.company-profile-id-hm-frame-location-row40 {
+  gap: 64px;
+  width: 100%;
+  max-width: 1200px;
+  align-self: stretch;
+}
+.company-profile-id-hm-image-map-sz {
+  width: 736px;
+  height: 440px;
+  margin: 0;
+  display: block;
+  flex-grow: 1;
+  box-sizing: border-box;
+  object-fit: cover;
+  flex-shrink: 1;
+  border-radius: 28px 28px 28px 28px;
+}
+.company-profile-id-hm-frame-contact-info6n {
+  gap: 24px;
+  width: 400px;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  max-width: 400px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.company-profile-id-hm-text-title-ho1 {
+  width: 100%;
+  max-width: auto;
+  margin-top: 0;
+  min-height: auto;
+  text-align: left;
+  margin-bottom: 0;
+}
+.company-profile-id-hm-text-title-ho2 {
+  color: #1b1b1b;
+  font-size: 36px;
+  font-style: normal;
+  margin-top: 0;
+  text-align: left;
+  font-family: "Plus Jakarta Sans",sans-serif;
+  font-weight: 500;
+  line-height: 44px;
+  margin-bottom: 0;
+  letter-spacing: 0;
+  text-transform: none;
+  text-decoration: none;
+}
+.company-profile-id-hm-frame-contact-list-kl {
+  width: 100%;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  max-width: 400px;
+  align-self: stretch;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.company-profile-id-hm-frame-divider-vm {
+  width: 400px;
+  height: 1px;
+  align-self: stretch;
+  box-sizing: border-box;
+  background-color: #c8c8c8;
+}
+.company-profile-id-hm-frame-list-item-er {
+  gap: 16px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding: 16px 0;
+  overflow: hidden;
+  position: relative;
+  max-width: 400px;
+  align-self: stretch;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+}
+.company-profile-id-hm-vector-leading-icon-ps {
+  width: 24px;
+  margin: 0;
+  display: block;
+  max-width: 24px;
+  box-sizing: border-box;
+  min-height: 24px;
+}
+.company-profile-id-hm-text-headline1g1 {
+  width: 100%;
+  flex-grow: 1;
+  max-width: 100%;
+  margin-top: 0;
+  min-height: auto;
+  text-align: left;
+  flex-shrink: 1;
+  margin-bottom: 0;
+}
+.company-profile-id-hm-text-headline1g2 {
+  color: #1b1b1b;
+  font-size: 16px;
+  font-style: normal;
+  margin-top: 0;
+  text-align: left;
+  font-family: "Plus Jakarta Sans",sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 0;
+  letter-spacing: .5px;
+  text-transform: none;
+  text-decoration: none;
+}
+.company-profile-id-hm-frame-divider-iu {
+  width: 400px;
+  height: 1px;
+  align-self: stretch;
+  box-sizing: border-box;
+  background-color: #c8c8c8;
+}
+.company-profile-id-hm-frame-list-item7t {
+  gap: 16px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding: 16px 0;
+  overflow: hidden;
+  position: relative;
+  max-width: 400px;
+  align-self: stretch;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+}
+.company-profile-id-hm-vector-leading-icon4w {
+  width: 24px;
+  margin: 0;
+  display: block;
+  max-width: 24px;
+  box-sizing: border-box;
+  min-height: 24px;
+}
+.company-profile-id-hm-text-headline-aq1 {
+  width: 100%;
+  flex-grow: 1;
+  max-width: 100%;
+  margin-top: 0;
+  min-height: auto;
+  text-align: left;
+  flex-shrink: 1;
+  margin-bottom: 0;
+}
+.company-profile-id-hm-text-headline-aq2 {
+  color: #1b1b1b;
+  font-size: 16px;
+  font-style: normal;
+  margin-top: 0;
+  text-align: left;
+  font-family: "Plus Jakarta Sans",sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 0;
+  letter-spacing: .5px;
+  text-transform: none;
+  text-decoration: none;
+}
+.company-profile-id-hm-frame-divider-zp {
+  width: 400px;
+  height: 1px;
+  align-self: stretch;
+  box-sizing: border-box;
+  background-color: #c8c8c8;
+}
+.company-profile-id-hm-frame-list-item-ws {
+  gap: 16px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding: 16px 0;
+  overflow: hidden;
+  position: relative;
+  max-width: 400px;
+  align-self: stretch;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+}
+.company-profile-id-hm-vector-leading-icon-lr {
+  width: 24px;
+  margin: 0;
+  display: block;
+  max-width: 24px;
+  box-sizing: border-box;
+  min-height: 19px;
+}
+.company-profile-id-hm-text-headline-im1 {
+  width: 100%;
+  flex-grow: 1;
+  max-width: 100%;
+  margin-top: 0;
+  min-height: auto;
+  text-align: left;
+  flex-shrink: 1;
+  margin-bottom: 0;
+}
+.company-profile-id-hm-text-headline-im2 {
+  color: #1b1b1b;
+  font-size: 16px;
+  font-style: normal;
+  margin-top: 0;
+  text-align: left;
+  font-family: "Plus Jakarta Sans",sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 0;
+  letter-spacing: .5px;
+  text-transform: none;
+  text-decoration: none;
+}
+.company-profile-id-hm-frame-divider7l {
+  width: 400px;
+  height: 1px;
+  align-self: stretch;
+  box-sizing: border-box;
+  background-color: #c8c8c8;
+}
+.company-profile-id-hm-frame-group4631-zh {
+  width: 1440px;
+  max-width: 1440px;
+  box-sizing: border-box;
+  min-height: 189px;
+}
+.company-profile-id-hm-frame-rectangle44-wk {
+  width: 1440px;
+  height: 189px;
+  box-sizing: border-box;
+  background-color: #18181b;
+}
+.company-profile-id-hm-text-copyright2026-lj1 {
+  width: 100%;
+  max-width: 482.3349609375px;
+  margin-top: 0;
+  min-height: auto;
+  text-align: center;
+  margin-bottom: 0;
+}
+.company-profile-id-hm-text-copyright2026-lj2 {
+  color: #fff;
+  font-size: 24px;
+  font-style: normal;
+  margin-top: 0;
+  text-align: center;
+  font-family: "Plus Jakarta Sans",sans-serif;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 0;
+  letter-spacing: 0;
+  text-transform: none;
+  text-decoration: none;
+}
+.company-profile-id-hm-text-siap-memasok-yu1 {
+  width: 100%;
+  max-width: 1289.895751953125px;
+  margin-top: 0;
+  min-height: auto;
+  text-align: justify;
+  margin-bottom: 0;
+}
+.company-profile-id-hm-text-siap-memasok-yu2 {
+  color: #fff;
+  font-size: 24px;
+  font-style: normal;
+  margin-top: 0;
+  text-align: justified;
+  font-family: "Plus Jakarta Sans",sans-serif;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 0;
+  letter-spacing: 0;
+  text-transform: none;
+  text-decoration: none;
+}
+.company-profile-id-hm-frame-gallery-wd {
+  gap: 48px;
+  width: 1440px;
+  display: flex;
+  padding: 96px 120px;
+  overflow: hidden;
+  position: relative;
+  max-width: 1440px;
+  box-sizing: border-box;
+  min-height: 644px;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #f4f4f4;
+}
+.company-profile-id-hm-text-title7e1 {
+  width: 100%;
+  max-width: auto;
+  margin-top: 0;
+  min-height: auto;
+  text-align: left;
+  margin-bottom: 0;
+}
+.company-profile-id-hm-text-title7e2 {
+  color: #1b1b1b;
+  font-size: 36px;
+  font-style: normal;
+  margin-top: 0;
+  text-align: left;
+  font-family: "Plus Jakarta Sans",sans-serif;
+  font-weight: 500;
+  line-height: 44px;
+  margin-bottom: 0;
+  letter-spacing: 0;
+  text-transform: none;
+  text-decoration: none;
+}
+.company-profile-id-hm-frame-gallery-grid-if {
+  gap: 24px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  max-width: 1200px;
+  align-self: stretch;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.company-profile-id-hm-image-gallery-image-go,.company-profile-id-hm-image-gallery-image-kp,.company-profile-id-hm-image-gallery-image-tg,.company-profile-id-hm-image-gallery-image-vq {
+  width: 282px;
+  height: 360px;
+  margin: 0;
+  display: block;
+  flex-grow: 1;
+  box-sizing: border-box;
+  object-fit: cover;
+  flex-shrink: 1;
+  border-radius: 16px 16px 16px 16px;
+}
+.company-profile-id-hm-frame-group4638-os {
+  width: 1323px;
+  max-width: 1323px;
+  box-sizing: border-box;
+  min-height: 425px;
+}
+.company-profile-id-hm-text-mengapa-memilih5y1 {
+  width: 100%;
+  max-width: auto;
+  margin-top: 0;
+  min-height: auto;
+  text-align: left;
+  margin-bottom: 0;
+}
+.company-profile-id-hm-text-mengapa-memilih5y2 {
+  color: #000;
+  font-size: 36px;
+  font-style: normal;
+  margin-top: 0;
+  text-align: left;
+  font-family: "Plus Jakarta Sans",sans-serif;
+  font-weight: 500;
+  line-height: 44px;
+  margin-bottom: 0;
+  letter-spacing: 0;
+  text-transform: none;
+  text-decoration: none;
+}
+.company-profile-id-hm-text-kualitas-yang-mo1 {
+  width: 100%;
+  max-width: 157px;
+  margin-top: 0;
+  min-height: auto;
+  text-align: center;
+  margin-bottom: 0;
+}
+.company-profile-id-hm-text-kualitas-yang-mo2 {
+  color: #000;
+  font-size: 24px;
+  font-style: normal;
+  margin-top: 0;
+  text-align: center;
+  font-family: "Plus Jakarta Sans",sans-serif;
+  font-weight: 500;
+  line-height: 32px;
+  margin-bottom: 0;
+  letter-spacing: 0;
+  text-transform: none;
+  text-decoration: none;
+}
+.company-profile-id-hm-text-pasokan-dapat-pl1 {
+  width: 100%;
+  max-width: 235px;
+  margin-top: 0;
+  min-height: auto;
+  text-align: center;
+  margin-bottom: 0;
+}
+.company-profile-id-hm-text-pasokan-dapat-pl2 {
+  color: #000;
+  font-size: 24px;
+  font-style: normal;
+  margin-top: 0;
+  text-align: center;
+  font-family: "Plus Jakarta Sans",sans-serif;
+  font-weight: 500;
+  line-height: 32px;
+  margin-bottom: 0;
+  letter-spacing: 0;
+  text-transform: none;
+  text-decoration: none;
+}
+.company-profile-id-hm-text-harga-yang0m1 {
+  width: 100%;
+  max-width: 235px;
+  margin-top: 0;
+  min-height: auto;
+  text-align: center;
+  margin-bottom: 0;
+}
+.company-profile-id-hm-text-harga-yang0m2 {
+  color: #000;
+  font-size: 24px;
+  font-style: normal;
+  margin-top: 0;
+  text-align: center;
+  font-family: "Plus Jakarta Sans",sans-serif;
+  font-weight: 500;
+  line-height: 32px;
+  margin-bottom: 0;
+  letter-spacing: 0;
+  text-transform: none;
+  text-decoration: none;
+}
+.company-profile-id-hm-text-bersedia-untuk3j1 {
+  width: 100%;
+  max-width: 235px;
+  margin-top: 0;
+  min-height: auto;
+  text-align: center;
+  margin-bottom: 0;
+}
+.company-profile-id-hm-text-bersedia-untuk3j2 {
+  color: #000;
+  font-size: 24px;
+  font-style: normal;
+  margin-top: 0;
+  text-align: center;
+  font-family: "Plus Jakarta Sans",sans-serif;
+  font-weight: 500;
+  line-height: 32px;
+  margin-bottom: 0;
+  letter-spacing: 0;
+  text-transform: none;
+  text-decoration: none;
+}
+.company-profile-id-hm-text-kemitraan-jangka-ek1 {
+  width: 100%;
+  max-width: 235px;
+  margin-top: 0;
+  min-height: auto;
+  text-align: center;
+  margin-bottom: 0;
+}
+.company-profile-id-hm-text-kemitraan-jangka-ek2,.company-profile-id-hm-text-kemitraan-jangka-ek3 {
+  color: #000;
+  font-size: 24px;
+  font-style: normal;
+  margin-top: 0;
+  text-align: center;
+  font-family: "Plus Jakarta Sans",sans-serif;
+  font-weight: 500;
+  line-height: 32px;
+  margin-bottom: 0;
+  letter-spacing: 0;
+  text-transform: none;
+  text-decoration: none;
+}
+.company-profile-id-hm-vector-diamond2-sq,.company-profile-id-hm-vector-shipping-truck-bv {
+  width: 171px;
+  margin: 0;
+  display: block;
+  max-width: 171px;
+  box-sizing: border-box;
+  min-height: 143px;
+}
+.company-profile-id-hm-vector-shipping-truck-bv {
+  width: 187px;
+  max-width: 187px;
+}
+.company-profile-id-hm-vector-group4637-rp,.company-profile-id-hm-vector-subscripti-cashflow7u {
+  width: 144px;
+  margin: 0;
+  display: block;
+  max-width: 144px;
+  box-sizing: border-box;
+  min-height: 143px;
+}
+.company-profile-id-hm-vector-business-handshake-yo,.company-profile-id-hm-vector-group4495-af {
+  width: 201px;
+  margin: 0;
+  display: block;
+  max-width: 201px;
+  box-sizing: border-box;
+  min-height: 143px;
+}
+.company-profile-id-hm-vector-group4495-af {
+  width: 119px;
+  cursor: pointer;
+  max-width: 119px;
+  min-height: 119px;
+}
+@media (max-width: 44px) {
+  .company-profile-id-hm-frame-action-yk,.company-profile-id-hm-frame-action1h {
+    width: 100%;
+    min-width: auto;
+  }
+  ;
+}

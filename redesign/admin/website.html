@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>X BAR - Edit Website</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./admin.css">
+</head>
+<body>
+
+  <div class="admin-shell">
+    <!-- ================= SIDEBAR ================= -->
+    <aside class="admin-sidebar">
+      <div>
+        <a href="../index.html" class="sidebar-brand" title="Back to Website">
+          <div class="sidebar-logo-circle">x̄</div>
+          <span class="sidebar-brand-text">X BAR</span>
+        </a>
+
+        <nav class="sidebar-nav">
+          <a href="./dashboard.html" class="sidebar-link">Dashboard</a>
+          <a href="./products.html" class="sidebar-link">Edit Product</a>
+          <a href="./website.html" class="sidebar-link active">Edit Website</a>
+        </nav>
+      </div>
+
+      <a href="./login.html" class="sidebar-logout">Logout</a>
+    </aside>
+
+    <!-- ================= MAIN CONTENT ================= -->
+    <main class="admin-main">
+      <!-- Top Bar -->
+      <header class="admin-topbar">
+        <h1 class="admin-page-title">Edit Website</h1>
+
+        <div class="topbar-right">
+          <button type="button" id="publishChangesBtn" class="btn-pill btn-elevated">Publish Changes</button>
+          <button type="button" id="topAvatarBtn" class="avatar-btn" title="Edit Profile">
+            <img src="../assets/admin-avatar.jpg" alt="Admin Profile">
+          </button>
+        </div>
+      </header>
+
+      <!-- Tabs Bar -->
+      <nav class="website-tabs" role="tablist" aria-label="Website Sections">
+        <button type="button" class="website-tab-btn active" data-tab="header" role="tab" aria-selected="true">Header</button>
+        <button type="button" class="website-tab-btn" data-tab="about" role="tab" aria-selected="false">About us</button>
+        <button type="button" class="website-tab-btn" data-tab="history" role="tab" aria-selected="false">History</button>
+        <button type="button" class="website-tab-btn" data-tab="vision" role="tab" aria-selected="false">Vision &amp; Mission</button>
+        <button type="button" class="website-tab-btn" data-tab="gallery" role="tab" aria-selected="false">Gallery</button>
+      </nav>
+
+      <!-- TAB 1: HEADER -->
+      <section class="website-panel active" id="panel-header" role="tabpanel">
+        <h2 class="panel-section-heading">Header Preview</h2>
+
+        <div class="header-preview-box" id="headerPreviewBox" style="background-image: url('../assets/e5b465e662d1108b8a092052f4b0fefc.png');">
+          <div class="header-preview-inner">
+            <div class="preview-brand">X BAR</div>
+            <div class="preview-subtitle">Calculated for Quality</div>
+            <p class="preview-desc" id="headerPreviewDesc">
+              Pemasok tepercaya untuk arang dan kayu bakar berkualitas premium guna memenuhi kebutuhan kuliner (BBQ/pemanggangan), industri, serta pertanian berskala global. Siap memasok pasar lokal maupun internasional secara konsisten.
+            </p>
+            <div class="preview-btns">
+              <span class="preview-btn-white">Kontak Kami</span>
+              <span class="preview-btn-outline">Produk</span>
+            </div>
+          </div>
+        </div>
+
+        <h2 class="panel-section-heading">Edit Header</h2>
+        <div class="header-edit-grid">
+          <div class="header-inputs-col">
+            <div class="field-group">
+              <label for="headerTitleInput" class="field-label">Title</label>
+              <input type="text" id="headerTitleInput" class="field-input" value="Natural energy, Global Quality">
+            </div>
+
+            <div class="dual-lang-grid">
+              <div class="field-group">
+                <label for="headerEnInput" class="field-label">EN Description</label>
+                <textarea id="headerEnInput" class="field-textarea"></textarea>
+              </div>
+              <div class="field-group">
+                <label for="headerIdInput" class="field-label">ID Description</label>
+                <textarea id="headerIdInput" class="field-textarea"></textarea>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-upload-col">
+            <div>
+              <h3 class="panel-section-heading" style="margin-bottom:8px;">Change Hero Image</h3>
+              <div class="hero-upload-row">
+                <svg class="hero-upload-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                  <circle cx="8.5" cy="8.5" r="1.5"></circle>
+                  <polyline points="21 15 16 10 5 21"></polyline>
+                </svg>
+                <div>
+                  <input type="file" id="heroImageFile" accept="image/png,image/jpeg" hidden>
+                  <button type="button" id="changeHeroImgBtn" class="btn-pill btn-outline-dark" style="padding:8px 18px;font-size:13px;">Change Image</button>
+                  <p class="upload-hint">Format: JPG, PNG Max 2MB</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="panel-footer-actions">
+              <button type="button" id="saveHeaderBtn" class="btn-pill btn-dark">Save</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- TAB 2: ABOUT US -->
+      <section class="website-panel" id="panel-about" role="tabpanel">
+        <div class="dual-lang-grid">
+          <div class="field-group">
+            <label for="aboutEnInput" class="field-label">EN Description</label>
+            <textarea id="aboutEnInput" class="field-textarea" style="min-height:310px;"></textarea>
+          </div>
+          <div class="field-group">
+            <label for="aboutIdInput" class="field-label">ID Description</label>
+            <textarea id="aboutIdInput" class="field-textarea" style="min-height:310px;"></textarea>
+          </div>
+        </div>
+
+        <div class="panel-footer-actions">
+          <button type="button" id="saveAboutBtn" class="btn-pill btn-dark">Save Changes</button>
+        </div>
+      </section>
+
+      <!-- TAB 3: HISTORY -->
+      <section class="website-panel" id="panel-history" role="tabpanel">
+        <div class="history-cards-scroll" id="historyCardsContainer"></div>
+
+        <div class="panel-footer-between">
+          <button type="button" id="addPeriodBtn" class="btn-pill btn-outline-dark">Add Period</button>
+          <button type="button" id="saveHistoryBtn" class="btn-pill btn-dark">Save Changes</button>
+        </div>
+      </section>
+
+      <!-- TAB 4: VISION & MISSION -->
+      <section class="website-panel" id="panel-vision" role="tabpanel">
+        <div class="vm-columns-grid">
+          <div class="vm-col">
+            <h2 class="panel-section-heading" style="margin-bottom:0;">Vision</h2>
+            <div class="field-group">
+              <label for="visionEnInput" class="field-label">EN Description</label>
+              <textarea id="visionEnInput" class="field-textarea" style="min-height:135px;"></textarea>
+            </div>
+            <div class="field-group">
+              <label for="visionIdInput" class="field-label">ID Description</label>
+              <textarea id="visionIdInput" class="field-textarea" style="min-height:135px;"></textarea>
+            </div>
+          </div>
+
+          <div class="vm-col">
+            <h2 class="panel-section-heading" style="margin-bottom:0;">Mission</h2>
+            <div class="field-group">
+              <label for="missionEnInput" class="field-label">EN Description</label>
+              <textarea id="missionEnInput" class="field-textarea" style="min-height:135px;"></textarea>
+            </div>
+            <div class="field-group">
+              <label for="missionIdInput" class="field-label">ID Description</label>
+              <textarea id="missionIdInput" class="field-textarea" style="min-height:135px;"></textarea>
+            </div>
+          </div>
+        </div>
+
+        <div class="panel-footer-actions">
+          <button type="button" id="saveVisionBtn" class="btn-pill btn-dark">Save Changes</button>
+        </div>
+      </section>
+
+      <!-- TAB 5: GALLERY -->
+      <section class="website-panel" id="panel-gallery" role="tabpanel">
+        <div class="gallery-admin-grid">
+          <div>
+            <div class="upload-dropzone" id="galleryDropzone">
+              <img id="galleryPendingImg" class="preview-img" src="" alt="Preview" style="display:none;">
+              <div id="galleryDropzoneText">
+                <p class="upload-dropzone-title">Click to Upload Image</p>
+                <p class="upload-dropzone-sub">or drag and drop in here</p>
+                <p class="upload-dropzone-sub" style="margin-top:4px;">Format: JPG, PNG | Max 2MB</p>
+              </div>
+            </div>
+            <input type="file" id="galleryFileInput" accept="image/png,image/jpeg" hidden>
+            <div class="upload-dropzone-actions">
+              <button type="button" id="chooseGalleryBtn" class="btn-pill btn-outline-dark" style="padding:9px 16px;font-size:13px;">Choose Images</button>
+              <button type="button" id="saveGalleryUploadBtn" class="btn-pill btn-dark" style="padding:9px 20px;font-size:13px;">Save</button>
+            </div>
+          </div>
+
+          <div class="gallery-items-scroll" id="galleryItemsScroll"></div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <!-- ================= EDIT PROFILE MODAL ================= -->
+  <div id="editProfileModal" class="admin-modal-backdrop" aria-hidden="true">
+    <div class="admin-modal-card" role="dialog" aria-modal="true" aria-labelledby="editProfileTitle">
+      <div class="modal-media-col">
+        <div class="modal-avatar-circle" id="profileAvatarPreview">AE</div>
+        <input type="file" id="profileAvatarFile" accept="image/png,image/jpeg" hidden>
+        <button type="button" id="profileChangeImgBtn" class="btn-pill btn-outline-dark" style="width:100%;">Change Image</button>
+      </div>
+
+      <form id="editProfileForm" class="modal-form-col">
+        <h2 id="editProfileTitle" class="modal-form-title">Edit Profile</h2>
+
+        <div class="modal-form-fields">
+          <div class="field-group">
+            <label for="profileNameInput" class="field-label">Name</label>
+            <input type="text" id="profileNameInput" class="field-input" placeholder="Enter your name" required>
+          </div>
+
+          <div class="field-group">
+            <label for="profileEmailInput" class="field-label">Email</label>
+            <input type="email" id="profileEmailInput" class="field-input" placeholder="Enter your email" required>
+          </div>
+
+          <div class="field-group">
+            <label for="profileNewPassInput" class="field-label">New Password</label>
+            <input type="password" id="profileNewPassInput" class="field-input" placeholder="Enter new password">
+          </div>
+
+          <div class="field-group">
+            <label for="profileLastPassInput" class="field-label">Last Password</label>
+            <input type="password" id="profileLastPassInput" class="field-input" placeholder="Input last password">
+          </div>
+        </div>
+
+        <div class="modal-form-actions">
+          <button type="button" id="profileCancelBtn" class="btn-pill btn-outline-dark">Cancel</button>
+          <button type="submit" class="btn-pill btn-dark">Save</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script src="./admin.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      window.XBarAdmin.initEditProfileModal();
+
+      let cms = window.XBarAdmin.getCms();
+
+      // --- Tabs switching ---
+      const tabBtns = document.querySelectorAll('.website-tab-btn');
+      const panels = document.querySelectorAll('.website-panel');
+      tabBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+          const target = btn.getAttribute('data-tab');
+          tabBtns.forEach(b => {
+            const active = b === btn;
+            b.classList.toggle('active', active);
+            b.setAttribute('aria-selected', active);
+          });
+          panels.forEach(p => p.classList.toggle('active', p.id === `panel-${target}`));
+        });
+      });
+
+      // --- Tab 1: Header ---
+      const headerTitleInput = document.getElementById('headerTitleInput');
+      const headerEnInput = document.getElementById('headerEnInput');
+      const headerIdInput = document.getElementById('headerIdInput');
+      const headerPreviewBox = document.getElementById('headerPreviewBox');
+      const headerPreviewDesc = document.getElementById('headerPreviewDesc');
+      const heroFile = document.getElementById('heroImageFile');
+
+      headerTitleInput.value = cms.header.title || '';
+      headerEnInput.value = cms.header.enDesc || '';
+      headerIdInput.value = cms.header.idDesc || '';
+      headerPreviewDesc.textContent = cms.header.idDesc || '';
+      if (cms.header.heroImg) {
+        headerPreviewBox.style.backgroundImage = `url('${cms.header.heroImg}')`;
+      }
+
+      headerIdInput.addEventListener('input', () => {
+        headerPreviewDesc.textContent = headerIdInput.value;
+      });
+
+      document.getElementById('changeHeroImgBtn').addEventListener('click', () => heroFile.click());
+      heroFile.addEventListener('change', () => {
+        const file = heroFile.files && heroFile.files[0];
+        if (!file) return;
+        const reader = new FileReader();
+        reader.onload = (ev) => {
+          cms.header.heroImg = ev.target.result;
+          headerPreviewBox.style.backgroundImage = `url('${ev.target.result}')`;
+        };
+        reader.readAsDataURL(file);
+      });
+
+      document.getElementById('saveHeaderBtn').addEventListener('click', () => {
+        cms.header.title = headerTitleInput.value.trim();
+        cms.header.enDesc = headerEnInput.value.trim();
+        cms.header.idDesc = headerIdInput.value.trim();
+        window.XBarAdmin.saveCms(cms);
+        window.XBarAdmin.showToast('Header changes saved.');
+      });
+
+      // --- Tab 2: About us ---
+      const aboutEnInput = document.getElementById('aboutEnInput');
+      const aboutIdInput = document.getElementById('aboutIdInput');
+      aboutEnInput.value = cms.about.enDesc || '';
+      aboutIdInput.value = cms.about.idDesc || '';
+
+      document.getElementById('saveAboutBtn').addEventListener('click', () => {
+        cms.about.enDesc = aboutEnInput.value.trim();
+        cms.about.idDesc = aboutIdInput.value.trim();
+        window.XBarAdmin.saveCms(cms);
+        window.XBarAdmin.showToast('About Us changes saved.');
+      });
+
+      // --- Tab 3: History ---
+      const historyContainer = document.getElementById('historyCardsContainer');
+      function renderHistory() {
+        historyContainer.innerHTML = cms.history.map((item, idx) => `
+          <div class="history-period-card" data-idx="${idx}">
+            <div class="field-group">
+              <label class="field-label">Period</label>
+              <input type="text" class="field-input hist-period" placeholder="Enter history period" value="${(item.period || '').replace(/"/g, '&quot;')}">
+            </div>
+            <div class="dual-lang-grid">
+              <div class="field-group">
+                <label class="field-label">EN Description</label>
+                <textarea class="field-textarea hist-en" placeholder="Enter EN Description" style="min-height:200px;">${item.enDesc || ''}</textarea>
+              </div>
+              <div class="field-group">
+                <label class="field-label">ID Description</label>
+                <textarea class="field-textarea hist-id" placeholder="Enter ID Description" style="min-height:200px;">${item.idDesc || ''}</textarea>
+              </div>
+            </div>
+          </div>
+        `).join('');
+      }
+
+      function syncHistoryFromDom() {
+        const cards = historyContainer.querySelectorAll('.history-period-card');
+        cms.history = Array.from(cards).map(card => ({
+          period: card.querySelector('.hist-period').value.trim(),
+          enDesc: card.querySelector('.hist-en').value.trim(),
+          idDesc: card.querySelector('.hist-id').value.trim()
+        }));
+      }
+
+      renderHistory();
+
+      document.getElementById('addPeriodBtn').addEventListener('click', () => {
+        syncHistoryFromDom();
+        cms.history.push({ period: '', enDesc: '', idDesc: '' });
+        renderHistory();
+        historyContainer.scrollLeft = historyContainer.scrollWidth;
+      });
+
+      document.getElementById('saveHistoryBtn').addEventListener('click', () => {
+        syncHistoryFromDom();
+        window.XBarAdmin.saveCms(cms);
+        window.XBarAdmin.showToast('History changes saved.');
+      });
+
+      // --- Tab 4: Vision & Mission ---
+      const visionEnInput = document.getElementById('visionEnInput');
+      const visionIdInput = document.getElementById('visionIdInput');
+      const missionEnInput = document.getElementById('missionEnInput');
+      const missionIdInput = document.getElementById('missionIdInput');
+
+      visionEnInput.value = cms.visionMission.visionEn || '';
+      visionIdInput.value = cms.visionMission.visionId || '';
+      missionEnInput.value = cms.visionMission.missionEn || '';
+      missionIdInput.value = cms.visionMission.missionId || '';
+
+      document.getElementById('saveVisionBtn').addEventListener('click', () => {
+        cms.visionMission.visionEn = visionEnInput.value.trim();
+        cms.visionMission.visionId = visionIdInput.value.trim();
+        cms.visionMission.missionEn = missionEnInput.value.trim();
+        cms.visionMission.missionId = missionIdInput.value.trim();
+        window.XBarAdmin.saveCms(cms);
+        window.XBarAdmin.showToast('Vision & Mission changes saved.');
+      });
+
+      // --- Tab 5: Gallery ---
+      const galleryScroll = document.getElementById('galleryItemsScroll');
+      const galleryDropzone = document.getElementById('galleryDropzone');
+      const galleryFileInput = document.getElementById('galleryFileInput');
+      const galleryPendingImg = document.getElementById('galleryPendingImg');
+      const galleryDropzoneText = document.getElementById('galleryDropzoneText');
+      let pendingGalleryData = null;
+
+      function renderGallery() {
+        galleryScroll.innerHTML = cms.gallery.map(item => `
+          <div class="gallery-admin-card" data-id="${item.id}">
+            <div class="gallery-card-head">
+              <span class="gallery-filename">${item.name}</span>
+              <div class="gallery-card-icons">
+                <button type="button" class="icon-action-btn btn-rename-gal" data-id="${item.id}" title="Rename">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M12 20h9"></path>
+                    <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path>
+                  </svg>
+                </button>
+                <button type="button" class="icon-action-btn icon-delete-btn btn-del-gal" data-id="${item.id}" title="Delete" style="width:28px;height:28px;">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="3 6 5 6 21 6"></polyline>
+                    <path d="M19 6l-1 14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L5 6"></path>
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <img src="${item.src}" alt="${item.name}" class="gallery-card-img">
+          </div>
+        `).join('');
+      }
+
+      function setPendingGallery(src, name) {
+        pendingGalleryData = src ? { src, name: name || `galeri${cms.gallery.length + 1}.jpg` } : null;
+        if (pendingGalleryData) {
+          galleryPendingImg.src = src;
+          galleryPendingImg.style.display = 'block';
+          galleryDropzoneText.style.display = 'none';
+        } else {
+          galleryPendingImg.src = '';
+          galleryPendingImg.style.display = 'none';
+          galleryDropzoneText.style.display = 'block';
+        }
+      }
+
+      galleryDropzone.addEventListener('click', () => galleryFileInput.click());
+      document.getElementById('chooseGalleryBtn').addEventListener('click', () => galleryFileInput.click());
+      galleryFileInput.addEventListener('change', () => {
+        const file = galleryFileInput.files && galleryFileInput.files[0];
+        if (!file) return;
+        const reader = new FileReader();
+        reader.onload = (ev) => setPendingGallery(ev.target.result, file.name);
+        reader.readAsDataURL(file);
+      });
+
+      document.getElementById('saveGalleryUploadBtn').addEventListener('click', () => {
+        if (!pendingGalleryData) {
+          window.XBarAdmin.showToast('Please choose an image first.');
+          return;
+        }
+        cms.gallery.unshift({
+          id: 'gal-' + Date.now(),
+          name: pendingGalleryData.name,
+          src: pendingGalleryData.src
+        });
+        window.XBarAdmin.saveCms(cms);
+        setPendingGallery(null);
+        renderGallery();
+        window.XBarAdmin.showToast('Gallery image added.');
+      });
+
+      galleryScroll.addEventListener('click', (e) => {
+        const renameBtn = e.target.closest('.btn-rename-gal');
+        if (renameBtn) {
+          const id = renameBtn.getAttribute('data-id');
+          const target = cms.gallery.find(g => g.id === id);
+          if (!target) return;
+          const next = prompt('Rename image:', target.name);
+          if (next && next.trim()) {
+            target.name = next.trim();
+            window.XBarAdmin.saveCms(cms);
+            renderGallery();
+          }
+          return;
+        }
+        const delBtn = e.target.closest('.btn-del-gal');
+        if (delBtn) {
+          const id = delBtn.getAttribute('data-id');
+          const target = cms.gallery.find(g => g.id === id);
+          if (target && confirm(`Delete "${target.name}"?`)) {
+            cms.gallery = cms.gallery.filter(g => g.id !== id);
+            window.XBarAdmin.saveCms(cms);
+            renderGallery();
+            window.XBarAdmin.showToast(`Removed "${target.name}".`);
+          }
+        }
+      });
+
+      renderGallery();
+
+      // --- Publish All Changes ---
+      document.getElementById('publishChangesBtn').addEventListener('click', () => {
+        cms.header.title = headerTitleInput.value.trim();
+        cms.header.enDesc = headerEnInput.value.trim();
+        cms.header.idDesc = headerIdInput.value.trim();
+        cms.about.enDesc = aboutEnInput.value.trim();
+        cms.about.idDesc = aboutIdInput.value.trim();
+        syncHistoryFromDom();
+        cms.visionMission.visionEn = visionEnInput.value.trim();
+        cms.visionMission.visionId = visionIdInput.value.trim();
+        cms.visionMission.missionEn = missionEnInput.value.trim();
+        cms.visionMission.missionId = missionIdInput.value.trim();
+        window.XBarAdmin.saveCms(cms);
+        window.XBarAdmin.showToast('All website changes published!');
+      });
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>X BAR - Edit Products</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./admin.css">
+</head>
+<body>
+
+  <div class="admin-shell">
+    <!-- ================= SIDEBAR ================= -->
+    <aside class="admin-sidebar">
+      <div>
+        <a href="../index.html" class="sidebar-brand" title="Back to Website">
+          <div class="sidebar-logo-circle">x̄</div>
+          <span class="sidebar-brand-text">X BAR</span>
+        </a>
+
+        <nav class="sidebar-nav">
+          <a href="./dashboard.html" class="sidebar-link">Dashboard</a>
+          <a href="./products.html" class="sidebar-link active">Edit Product</a>
+          <a href="./website.html" class="sidebar-link">Edit Website</a>
+        </nav>
+      </div>
+
+      <a href="./login.html" class="sidebar-logout">Logout</a>
+    </aside>
+
+    <!-- ================= MAIN CONTENT ================= -->
+    <main class="admin-main">
+      <!-- Top Bar -->
+      <header class="admin-topbar">
+        <h1 class="admin-page-title">Edit Products</h1>
+
+        <div class="topbar-search">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+          <input type="text" id="productSearchInput" placeholder="Search" autocomplete="off">
+        </div>
+
+        <div class="topbar-right">
+          <button type="button" id="openAddProductBtn" class="btn-pill btn-elevated">Add New Product</button>
+          <button type="button" id="topAvatarBtn" class="avatar-btn" title="Edit Profile">
+            <img src="../assets/admin-avatar.jpg" alt="Admin Profile">
+          </button>
+        </div>
+      </header>
+
+      <!-- Products Count -->
+      <p class="products-count"><span id="totalProductsCount">5</span> Total Products</p>
+
+      <!-- Products Table Card -->
+      <section class="products-table-card">
+        <div class="products-table-head">
+          <span>Product</span>
+          <span>Actions</span>
+        </div>
+        <div id="productRowsContainer"></div>
+      </section>
+    </main>
+  </div>
+
+  <!-- ================= ADD / EDIT PRODUCT MODAL (Add produk.svg & Edit produk.svg) ================= -->
+  <div id="productFormModal" class="admin-modal-backdrop" aria-hidden="true">
+    <div class="admin-modal-card" role="dialog" aria-modal="true" aria-labelledby="productModalTitle">
+      <div class="modal-media-col">
+        <div class="modal-square-dropzone" id="productDropzone">
+          <img id="productPreviewImg" src="" alt="Product Preview" style="display:none;">
+          <div id="productDropzoneText">
+            <p class="upload-dropzone-title">Click to Upload Image</p>
+            <p class="upload-dropzone-sub">or drag and drop in here</p>
+            <p class="upload-dropzone-sub" style="margin-top:4px;">Format: JPG, PNG | Max 2MB</p>
+          </div>
+        </div>
+        <input type="file" id="productImageFile" accept="image/png,image/jpeg" hidden>
+        <button type="button" id="productImageBtn" class="btn-pill btn-outline-dark" style="width:100%;">Add Image</button>
+      </div>
+
+      <form id="productModalForm" class="modal-form-col">
+        <h2 id="productModalTitle" class="modal-form-title">Add Product</h2>
+
+        <div class="modal-form-fields">
+          <div class="field-group">
+            <label for="prodNameInput" class="field-label">Product Name</label>
+            <input type="text" id="prodNameInput" class="field-input" placeholder="Enter product name" required>
+          </div>
+
+          <div class="dual-lang-grid">
+            <div class="field-group">
+              <label for="prodPriceInput" class="field-label">Price</label>
+              <input type="text" id="prodPriceInput" class="field-input" placeholder="Enter product price" required>
+            </div>
+            <div class="field-group">
+              <label for="prodStockInput" class="field-label">Stock</label>
+              <input type="text" id="prodStockInput" class="field-input" placeholder="Enter product stock" required>
+            </div>
+          </div>
+
+          <div class="field-group">
+            <label for="prodDescInput" class="field-label">Description</label>
+            <textarea id="prodDescInput" class="field-textarea" placeholder="Enter product description" required></textarea>
+          </div>
+        </div>
+
+        <div class="modal-form-actions">
+          <button type="button" id="productModalCancelBtn" class="btn-pill btn-outline-dark">Cancel</button>
+          <button type="submit" class="btn-pill btn-dark">Save</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- ================= EDIT PROFILE MODAL ================= -->
+  <div id="editProfileModal" class="admin-modal-backdrop" aria-hidden="true">
+    <div class="admin-modal-card" role="dialog" aria-modal="true" aria-labelledby="editProfileTitle">
+      <div class="modal-media-col">
+        <div class="modal-avatar-circle" id="profileAvatarPreview">AE</div>
+        <input type="file" id="profileAvatarFile" accept="image/png,image/jpeg" hidden>
+        <button type="button" id="profileChangeImgBtn" class="btn-pill btn-outline-dark" style="width:100%;">Change Image</button>
+      </div>
+
+      <form id="editProfileForm" class="modal-form-col">
+        <h2 id="editProfileTitle" class="modal-form-title">Edit Profile</h2>
+
+        <div class="modal-form-fields">
+          <div class="field-group">
+            <label for="profileNameInput" class="field-label">Name</label>
+            <input type="text" id="profileNameInput" class="field-input" placeholder="Enter your name" required>
+          </div>
+
+          <div class="field-group">
+            <label for="profileEmailInput" class="field-label">Email</label>
+            <input type="email" id="profileEmailInput" class="field-input" placeholder="Enter your email" required>
+          </div>
+
+          <div class="field-group">
+            <label for="profileNewPassInput" class="field-label">New Password</label>
+            <input type="password" id="profileNewPassInput" class="field-input" placeholder="Enter new password">
+          </div>
+
+          <div class="field-group">
+            <label for="profileLastPassInput" class="field-label">Last Password</label>
+            <input type="password" id="profileLastPassInput" class="field-input" placeholder="Input last password">
+          </div>
+        </div>
+
+        <div class="modal-form-actions">
+          <button type="button" id="profileCancelBtn" class="btn-pill btn-outline-dark">Cancel</button>
+          <button type="submit" class="btn-pill btn-dark">Save</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script src="./admin.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      window.XBarAdmin.initEditProfileModal();
+
+      let products = window.XBarAdmin.getProducts();
+      let editingId = null;
+      let pendingImg = '';
+
+      const rowsContainer = document.getElementById('productRowsContainer');
+      const countEl = document.getElementById('totalProductsCount');
+      const searchInput = document.getElementById('productSearchInput');
+
+      const modal = document.getElementById('productFormModal');
+      const modalTitle = document.getElementById('productModalTitle');
+      const previewImg = document.getElementById('productPreviewImg');
+      const dropzoneText = document.getElementById('productDropzoneText');
+      const dropzone = document.getElementById('productDropzone');
+      const fileInput = document.getElementById('productImageFile');
+      const imgBtn = document.getElementById('productImageBtn');
+      const nameInput = document.getElementById('prodNameInput');
+      const priceInput = document.getElementById('prodPriceInput');
+      const stockInput = document.getElementById('prodStockInput');
+      const descInput = document.getElementById('prodDescInput');
+
+      function renderProducts() {
+        const q = searchInput.value.trim().toLowerCase();
+        const filtered = products.filter(p =>
+          !q || p.name.toLowerCase().includes(q) || (p.category || '').toLowerCase().includes(q)
+        );
+        countEl.textContent = products.length;
+
+        if (filtered.length === 0) {
+          rowsContainer.innerHTML = `<div style="padding:36px;text-align:center;color:#71717a;">No products found.</div>`;
+          return;
+        }
+
+        rowsContainer.innerHTML = filtered.map(p => `
+          <div class="product-list-row" data-id="${p.id}">
+            <div class="product-row-left">
+              <img src="${p.img}" alt="${p.name}" class="product-thumb">
+              <div>
+                <h3 class="product-row-name">${p.name}</h3>
+                <p class="product-row-cat">${p.category || 'Charcoal'}</p>
+              </div>
+            </div>
+            <div class="product-row-actions">
+              <button type="button" class="icon-action-btn btn-edit-prod" data-id="${p.id}" title="Edit Product" aria-label="Edit ${p.name}">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 20h9"></path>
+                  <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path>
+                </svg>
+              </button>
+              <button type="button" class="icon-action-btn icon-delete-btn btn-del-prod" data-id="${p.id}" title="Delete Product" aria-label="Delete ${p.name}">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="3 6 5 6 21 6"></polyline>
+                  <path d="M19 6l-1 14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L5 6"></path>
+                  <path d="M10 11v6"></path>
+                  <path d="M14 11v6"></path>
+                  <path d="M9 6V4a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v2"></path>
+                </svg>
+              </button>
+            </div>
+          </div>
+        `).join('');
+      }
+
+      function setModalImage(src) {
+        pendingImg = src || '';
+        if (pendingImg) {
+          previewImg.src = pendingImg;
+          previewImg.style.display = 'block';
+          dropzoneText.style.display = 'none';
+        } else {
+          previewImg.src = '';
+          previewImg.style.display = 'none';
+          dropzoneText.style.display = 'block';
+        }
+      }
+
+      function openAddModal() {
+        editingId = null;
+        modalTitle.textContent = 'Add Product';
+        imgBtn.textContent = 'Add Image';
+        nameInput.value = '';
+        priceInput.value = '';
+        stockInput.value = '';
+        descInput.value = '';
+        setModalImage('');
+        modal.classList.add('active');
+        modal.setAttribute('aria-hidden', 'false');
+      }
+
+      function openEditModal(id) {
+        const prod = products.find(p => p.id === id);
+        if (!prod) return;
+        editingId = id;
+        modalTitle.textContent = 'Edit Product';
+        imgBtn.textContent = 'Change Image';
+        nameInput.value = prod.name || '';
+        priceInput.value = prod.price || '';
+        stockInput.value = prod.stock || '';
+        descInput.value = prod.desc || prod.descEn || '';
+        setModalImage(prod.img);
+        modal.classList.add('active');
+        modal.setAttribute('aria-hidden', 'false');
+      }
+
+      function closeProductModal() {
+        modal.classList.remove('active');
+        modal.setAttribute('aria-hidden', 'true');
+      }
+
+      document.getElementById('openAddProductBtn').addEventListener('click', openAddModal);
+      document.getElementById('productModalCancelBtn').addEventListener('click', closeProductModal);
+      modal.addEventListener('click', (e) => {
+        if (e.target === modal) closeProductModal();
+      });
+
+      dropzone.addEventListener('click', () => fileInput.click());
+      imgBtn.addEventListener('click', () => fileInput.click());
+      fileInput.addEventListener('change', () => {
+        const file = fileInput.files && fileInput.files[0];
+        if (!file) return;
+        const reader = new FileReader();
+        reader.onload = (ev) => setModalImage(ev.target.result);
+        reader.readAsDataURL(file);
+      });
+
+      dropzone.addEventListener('dragover', (e) => e.preventDefault());
+      dropzone.addEventListener('drop', (e) => {
+        e.preventDefault();
+        const file = e.dataTransfer.files && e.dataTransfer.files[0];
+        if (!file) return;
+        const reader = new FileReader();
+        reader.onload = (ev) => setModalImage(ev.target.result);
+        reader.readAsDataURL(file);
+      });
+
+      document.getElementById('productModalForm').addEventListener('submit', function (e) {
+        e.preventDefault();
+        const name = nameInput.value.trim();
+        const price = priceInput.value.trim();
+        const stock = stockInput.value.trim();
+        const desc = descInput.value.trim();
+        const category = name.toLowerCase().includes('firewood') || name.toLowerCase().includes('wood') ? 'Wood' : 'Charcoal';
+
+        if (editingId) {
+          products = products.map(p => p.id === editingId ? {
+            ...p,
+            name,
+            price,
+            stock,
+            desc,
+            descEn: desc,
+            category,
+            img: pendingImg || p.img
+          } : p);
+          window.XBarAdmin.showToast(`Updated "${name}".`);
+        } else {
+          products.push({
+            id: 'prod-' + Date.now(),
+            name,
+            price,
+            stock,
+            desc,
+            descEn: desc,
+            descId: desc,
+            category,
+            img: pendingImg || '../assets/1b2e1e5be9ef9997911dd50fa0c28ea5.jpg'
+          });
+          window.XBarAdmin.showToast(`Added "${name}".`);
+        }
+
+        window.XBarAdmin.saveProducts(products);
+        renderProducts();
+        closeProductModal();
+      });
+
+      rowsContainer.addEventListener('click', function (e) {
+        const editBtn = e.target.closest('.btn-edit-prod');
+        if (editBtn) {
+          openEditModal(editBtn.getAttribute('data-id'));
+          return;
+        }
+        const delBtn = e.target.closest('.btn-del-prod');
+        if (delBtn) {
+          const id = delBtn.getAttribute('data-id');
+          const target = products.find(p => p.id === id);
+          if (target && confirm(`Delete "${target.name}"?`)) {
+            products = products.filter(p => p.id !== id);
+            window.XBarAdmin.saveProducts(products);
+            renderProducts();
+            window.XBarAdmin.showToast(`Deleted "${target.name}".`);
+          }
+        }
+      });
+
+      searchInput.addEventListener('input', renderProducts);
+      renderProducts();
+
+      // Auto-open Edit modal if navigated from Dashboard Low Stock Restock (?edit=id)
+      const params = new URLSearchParams(window.location.search);
+      const editParam = params.get('edit');
+      if (editParam) openEditModal(editParam);
+    });
+  </script>
+</body>
+</html>

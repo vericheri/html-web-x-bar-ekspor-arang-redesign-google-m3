@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>X BAR - Admin Dashboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./admin.css">
+</head>
+<body>
+
+  <div class="admin-shell">
+    <!-- ================= SIDEBAR ================= -->
+    <aside class="admin-sidebar">
+      <div>
+        <a href="../index.html" class="sidebar-brand" title="Back to Website">
+          <div class="sidebar-logo-circle">x̄</div>
+          <span class="sidebar-brand-text">X BAR</span>
+        </a>
+
+        <nav class="sidebar-nav">
+          <a href="./dashboard.html" class="sidebar-link active">Dashboard</a>
+          <a href="./products.html" class="sidebar-link">Edit Product</a>
+          <a href="./website.html" class="sidebar-link">Edit Website</a>
+        </nav>
+      </div>
+
+      <a href="./login.html" class="sidebar-logout">Logout</a>
+    </aside>
+
+    <!-- ================= MAIN CONTENT ================= -->
+    <main class="admin-main">
+      <!-- Top Bar -->
+      <header class="admin-topbar">
+        <div class="topbar-search">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+          <input type="text" id="dashboardSearch" placeholder="Search" autocomplete="off">
+        </div>
+
+        <div class="topbar-right">
+          <button type="button" id="topAvatarBtn" class="avatar-btn" title="Edit Profile">
+            <img src="../assets/admin-avatar.jpg" alt="Admin Profile">
+          </button>
+        </div>
+      </header>
+
+      <!-- Top Grid: Monthly Sales Trend + Top Performing Products -->
+      <section class="dashboard-grid-top">
+        <div class="dash-card">
+          <h2 class="dash-card-title">Monthly Sales Trend (Tons)</h2>
+          <div class="chart-wrap">
+            <svg viewBox="0 0 640 220" width="100%" height="100%" role="img" aria-label="Monthly Sales Trend Bar Chart">
+              <!-- Gridlines & Y-Axis Labels -->
+              <line x1="56" y1="24" x2="620" y2="24" stroke="#a1a1aa" stroke-width="1"/>
+              <text x="40" y="28" text-anchor="end" font-size="11" fill="#18181b">120</text>
+
+              <line x1="56" y1="64" x2="620" y2="64" stroke="#a1a1aa" stroke-width="1"/>
+              <text x="40" y="68" text-anchor="end" font-size="11" fill="#18181b">90</text>
+
+              <line x1="56" y1="104" x2="620" y2="104" stroke="#a1a1aa" stroke-width="1"/>
+              <text x="40" y="108" text-anchor="end" font-size="11" fill="#18181b">60</text>
+
+              <line x1="56" y1="144" x2="620" y2="144" stroke="#a1a1aa" stroke-width="1"/>
+              <text x="40" y="148" text-anchor="end" font-size="11" fill="#18181b">30</text>
+
+              <line x1="56" y1="184" x2="620" y2="184" stroke="#a1a1aa" stroke-width="1"/>
+              <text x="40" y="188" text-anchor="end" font-size="11" fill="#18181b">0</text>
+
+              <line x1="56" y1="24" x2="56" y2="184" stroke="#a1a1aa" stroke-width="1"/>
+
+              <!-- Jan: 80 -->
+              <text x="115" y="68" text-anchor="middle" font-size="11" fill="#18181b">80</text>
+              <path d="M90,82 a6,6 0 0 1 6,-6 h38 a6,6 0 0 1 6,6 v102 h-50 z" fill="#111113"/>
+              <text x="115" y="204" text-anchor="middle" font-size="12" fill="#18181b">Jan</text>
+
+              <!-- Feb: 90 -->
+              <text x="206" y="55" text-anchor="middle" font-size="11" fill="#18181b">90</text>
+              <path d="M181,70 a6,6 0 0 1 6,-6 h38 a6,6 0 0 1 6,6 v114 h-50 z" fill="#111113"/>
+              <text x="206" y="204" text-anchor="middle" font-size="12" fill="#18181b">Feb</text>
+
+              <!-- Mar: 60 -->
+              <text x="297" y="95" text-anchor="middle" font-size="11" fill="#18181b">60</text>
+              <path d="M272,110 a6,6 0 0 1 6,-6 h38 a6,6 0 0 1 6,6 v74 h-50 z" fill="#111113"/>
+              <text x="297" y="204" text-anchor="middle" font-size="12" fill="#18181b">Mar</text>
+
+              <!-- Apr: 100 -->
+              <text x="388" y="42" text-anchor="middle" font-size="11" fill="#18181b">100</text>
+              <path d="M363,56 a6,6 0 0 1 6,-6 h38 a6,6 0 0 1 6,6 v128 h-50 z" fill="#111113"/>
+              <text x="388" y="204" text-anchor="middle" font-size="12" fill="#18181b">Apr</text>
+
+              <!-- May: 110 -->
+              <text x="479" y="28" text-anchor="middle" font-size="11" fill="#18181b">110</text>
+              <path d="M454,42 a6,6 0 0 1 6,-6 h38 a6,6 0 0 1 6,6 v142 h-50 z" fill="#111113"/>
+              <text x="479" y="204" text-anchor="middle" font-size="12" fill="#18181b">May</text>
+
+              <!-- Jun: 90 -->
+              <text x="570" y="55" text-anchor="middle" font-size="11" fill="#18181b">90</text>
+              <path d="M545,70 a6,6 0 0 1 6,-6 h38 a6,6 0 0 1 6,6 v114 h-50 z" fill="#111113"/>
+              <text x="570" y="204" text-anchor="middle" font-size="12" fill="#18181b">Jun</text>
+            </svg>
+          </div>
+        </div>
+
+        <div class="dash-card">
+          <h2 class="dash-card-title">Top Performing Products</h2>
+          <div class="top-products-list">
+            <div class="searchable-item">
+              <div class="top-product-head">
+                <span>Tamarind Charcoal</span>
+                <span>80 Tons sold</span>
+              </div>
+              <div class="top-product-bar-bg">
+                <div class="top-product-bar-fill" style="width: 90%;"></div>
+              </div>
+            </div>
+
+            <div class="searchable-item">
+              <div class="top-product-head">
+                <span>Mix Charcoal</span>
+                <span>70 Tons sold</span>
+              </div>
+              <div class="top-product-bar-bg">
+                <div class="top-product-bar-fill" style="width: 85%;"></div>
+              </div>
+            </div>
+
+            <div class="searchable-item">
+              <div class="top-product-head">
+                <span>Charcoal Powder</span>
+                <span>65 Tons sold</span>
+              </div>
+              <div class="top-product-bar-bg">
+                <div class="top-product-bar-fill" style="width: 81%;"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Bottom Grid: Low Stock Alerts + Product Inventory by Category -->
+      <section class="dashboard-grid-bottom">
+        <div class="dash-card">
+          <h2 class="dash-card-title">Low Stock Alerts</h2>
+          <div class="alert-list">
+            <div class="alert-row searchable-item">
+              <span class="alert-text">Industrial Charcoal (20 Tons Left)</span>
+              <a href="./products.html?edit=industrial-charcoal" class="btn-restock btn-restock-critical">Restock</a>
+            </div>
+            <div class="alert-row searchable-item">
+              <span class="alert-text">Charcoal Powder (30 Tons Left)</span>
+              <a href="./products.html?edit=charcoal-powder" class="btn-restock btn-restock-warn">Restock</a>
+            </div>
+            <div class="alert-row searchable-item">
+              <span class="alert-text">Firewood (50 Tons Left)</span>
+              <a href="./products.html?edit=firewood" class="btn-restock btn-restock-warn">Restock</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="dash-card">
+          <h2 class="dash-card-title">Product Inventory by Category</h2>
+          <div class="treemap-grid" id="inventoryTreemap">
+            <div class="treemap-tile searchable-item" style="background-color: #000000;">
+              <span class="treemap-name">Tamarind Charcoal</span>
+              <span class="treemap-qty">100 Tons</span>
+            </div>
+
+            <div class="treemap-tile searchable-item" style="background-color: #3f3f46;">
+              <span class="treemap-name">Mix Charcoal</span>
+              <span class="treemap-qty">70 Tons</span>
+            </div>
+
+            <div class="treemap-right-col">
+              <div class="treemap-tile searchable-item" style="background-color: #71717a;">
+                <span class="treemap-name">Firewood</span>
+                <span class="treemap-qty">50 Tons</span>
+              </div>
+
+              <div class="treemap-bottom-split">
+                <div class="treemap-tile searchable-item" style="background-color: #a1a1aa;">
+                  <span class="treemap-name">Charcoal Powder</span>
+                  <span class="treemap-qty">30 Tons</span>
+                </div>
+                <div class="treemap-tile searchable-item" style="background-color: #d4d4d8;">
+                  <span class="treemap-name">Industrial Charcoal</span>
+                  <span class="treemap-qty">20 Tons</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <!-- ================= EDIT PROFILE MODAL (Edit profil.svg) ================= -->
+  <div id="editProfileModal" class="admin-modal-backdrop" aria-hidden="true">
+    <div class="admin-modal-card" role="dialog" aria-modal="true" aria-labelledby="editProfileTitle">
+      <div class="modal-media-col">
+        <div class="modal-avatar-circle" id="profileAvatarPreview">AE</div>
+        <input type="file" id="profileAvatarFile" accept="image/png,image/jpeg" hidden>
+        <button type="button" id="profileChangeImgBtn" class="btn-pill btn-outline-dark" style="width:100%;">Change Image</button>
+      </div>
+
+      <form id="editProfileForm" class="modal-form-col">
+        <h2 id="editProfileTitle" class="modal-form-title">Edit Profile</h2>
+
+        <div class="modal-form-fields">
+          <div class="field-group">
+            <label for="profileNameInput" class="field-label">Name</label>
+            <input type="text" id="profileNameInput" class="field-input" placeholder="Enter your name" required>
+          </div>
+
+          <div class="field-group">
+            <label for="profileEmailInput" class="field-label">Email</label>
+            <input type="email" id="profileEmailInput" class="field-input" placeholder="Enter your email" required>
+          </div>
+
+          <div class="field-group">
+            <label for="profileNewPassInput" class="field-label">New Password</label>
+            <input type="password" id="profileNewPassInput" class="field-input" placeholder="Enter new password">
+          </div>
+
+          <div class="field-group">
+            <label for="profileLastPassInput" class="field-label">Last Password</label>
+            <input type="password" id="profileLastPassInput" class="field-input" placeholder="Input last password">
+          </div>
+        </div>
+
+        <div class="modal-form-actions">
+          <button type="button" id="profileCancelBtn" class="btn-pill btn-outline-dark">Cancel</button>
+          <button type="submit" class="btn-pill btn-dark">Save</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script src="./admin.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      window.XBarAdmin.initEditProfileModal();
+
+      const searchInput = document.getElementById('dashboardSearch');
+      searchInput.addEventListener('input', function () {
+        const q = this.value.trim().toLowerCase();
+        document.querySelectorAll('.searchable-item').forEach(item => {
+          const match = !q || item.textContent.toLowerCase().includes(q);
+          item.style.opacity = match ? '1' : '0.25';
+        });
+      });
+    });
+  </script>
+</body>
+</html>
